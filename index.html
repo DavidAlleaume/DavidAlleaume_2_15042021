@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Reservia</title>
-        <link rel="stylesheet" type="text/css" href="mobile.css">
-        <script src="https://kit.fontawesome.com/172aad8cad.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div  id="page_block">
-            <header>
-                <div id="logo"><img src="images/logo/Reservia@3x.png" alt="logo Réservia" />                
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
-                        <li><a href="#">S'inscrire</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <section id=section1>
-                <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-                <div id="research">
-                    
-                    <form method="post" action="traitement.php">
-                        <p>
-                            <input type="search /">
-                        </p>
-                    </form>
-                </div>
+<html lang="fr">
 
+<head>
+    <meta charset="UTF-8" />
+    <title>Reservia</title>
+    <link rel="shortcut icon" href="images/logo/Reservia.svg" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" />
+    <script src="https://kit.fontawesome.com/172aad8cad.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=devic-width" />
+</head>
 
-            </section>
-        </div>
-        
-    </body>
+<body>
+    <div id="page-block">
+        <header>
+            <div id="logo">
+                <img src="images/logo/Reservia.svg" alt="logo-Réservia" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="search-section">
+            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            
+            <div id="search-box">
+                <div id="map_btn-container">
+                    <img id="map-btn" src="images/Icons/map-marker-alt-solid.svg" alt="location" />
+                </div>
+                <form method="post" action="traitement.php"></form>
+                <label for="place"></label>
+                <input id="search-txt" type="text" name="search_request" placeholder="   Ville, Pays" />
+                </form>
+                <div id="search_btn-container">
+                    <a id="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                    </a>
+                </div>  
+            </div>
+        </section>
+    </div>
+</body>
 </html>
