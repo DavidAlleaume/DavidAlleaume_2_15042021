@@ -12,6 +12,7 @@
 
 <body>
     <div id="page-block">
+<!-- Header - Logo + Menu -->
         <header>
             <div id="logo">
                 <img src="images/logo/Reservia.svg" alt="logo-Réservia" />
@@ -25,23 +26,75 @@
             </nav>
         </header>
 
+<!-- Recherche -->
+        
         <section id="search-section">
             <h1>Trouver votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             
             <div id="search-box">
-                <div id="map_btn-container">
-                    <img id="map-btn" src="images/Icons/map-marker-alt-solid.svg" alt="location" />
+                <div id="map-btn">
+                    <img id="map-icon" src="images/Icons/map-marker-alt-solid.svg" alt="location" />
                 </div>
                 <form method="post" action="traitement.php"></form>
                 <label for="place"></label>
                 <input id="search-txt" type="text" name="search_request" placeholder="   Ville, Pays" />
                 </form>
-                <div id="search_btn-container">
-                    <a id="search-btn" href="#">
-                    <i class="fas fa-search"></i>
+                <div id="search-btn">
+                    <a id="search-icon" href="#">
+                        <i class="fas fa-search"></i>
                     </a>
                 </div>  
+            </div>
+        </section>
+
+<!-- Filtres -->
+
+        <section id="filters-section">
+            <h1>Filtres</h1>
+
+            <div id="filters-container">
+                <div class="filter-box">
+                    <div class="filter-btn">
+                        <a class="filter-icon" href="#">
+                            <i class="fas fa-money-bill-wave"></i>  
+                        </a>
+                    </div>
+                    <p>Économique</p>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-btn">
+                        <a class="filter-icon" href="#">
+                            <i class="fas fa-child"></i>
+                        </a>
+                    </div>
+                    <p>Familial</p>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-btn">
+                        <a class="filter-icon" href="#">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </div>
+                    <p>Romantique</p>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-btn">
+                        <a class="filter-icon" href="#">
+                            <i class="fas fa-dog"></i>
+                        </a>
+                    </div>
+                    <p>Animaux autorisés</p>
+                </div>
+            </div>
+
+            <div id="info-container">
+                <div id="info-btn">
+                    <a id="info-icon" href="#">
+                        <i class="fas fa-info"></i>
+                    </a>
+                </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
     </div>

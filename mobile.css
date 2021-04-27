@@ -1,11 +1,12 @@
 #page-block {
-  width: 374px;
-  height: 600px;
-  margin: auto;
-  border: 2px solid #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
+/* recherche */
+
 #search-box {
+  padding: 0px;
   border: 1px solid #f2f2f2;
   width: 333px;
   height: 50px;
@@ -13,15 +14,15 @@
   display: flex;
 }
 
-#map_btn-container {
+#map-btn {
   width: 50px;
-  height: auto;
+  height: 100%;
   background-color: #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 10px 0px 0px 10px;
   display: flex;
 }
 
-#map-btn {
+#map-icon {
   width: 15px;
   margin: auto;
 }
@@ -31,15 +32,73 @@
   border: none;
 }
 
-#search_btn-container {
+#search-btn {
+  display: flex;
   width: 50px;
-  height: auto;
+  height: 100%;
   background-color: #0065fc;
   border-radius: 15px;
+}
+
+#search-icon {
+  margin: auto;
+  color: white;
+}
+
+/* Filtres */
+
+#filters-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-box {
+  display: flex;
+  border: 3px solid #f2f2f2;
+  border-radius: 30px;
+  height: 50px;
+  width: fit-content;
+}
+
+.filter-btn {
+  display: flex;
+  width: 50px;
+  height: 100%;
+  background-color: #deebff;
+  border-radius: 25px;
+}
+
+.filter-icon {
+  margin: auto;
+  color: #0065fc;
+}
+
+.filter-box p {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/* info */
+
+#info-container {
+  display: flex;
+  align-items: baseline;
+}
+
+#info-btn {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px;
   display: flex;
 }
 
-#search-btn {
+#info-icon {
   margin: auto;
-  color: white;
+  color: #0065fc;
+}
+
+#info-container p {
+  padding-left: 10px;
 }
