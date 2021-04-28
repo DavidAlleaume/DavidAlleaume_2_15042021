@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <div id="page-block">
-<!-- Header - Logo + Menu -->
+    <div id="page_block">
+
         <header>
             <div id="logo">
-                <img src="images/logo/Reservia.svg" alt="logo-Réservia" />
+                <img src="images/logo/Reservia.svg" alt="logo_Réservia" />
             </div>
             <nav>
                 <ul>
@@ -26,61 +26,65 @@
             </nav>
         </header>
 
-<!-- Recherche -->
+
         
-        <section id="search-section">
+        <section id="search_section">
+
             <h1>Trouver votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             
-            <div id="search-box">
-                <div id="map-btn">
-                    <img id="map-icon" src="images/Icons/map-marker-alt-solid.svg" alt="location" />
+            <div id="search_box">
+                <div id="map_btn">
+                    <img id="map_icon" src="images/Icons/map-marker-alt-solid.svg" alt="location" />
                 </div>
-                <form method="post" action="traitement.php"></form>
-                <label for="place"></label>
-                <input id="search-txt" type="text" name="search_request" placeholder="   Ville, Pays" />
+                <form id="search_form" method="post" action="traitement.php">
+                    <label for="place"></label>
+                    <input id="search_txt" type="text" name="search_request" placeholder="   Ville, Pays" />
                 </form>
-                <div id="search-btn">
-                    <a id="search-icon" href="#">
+                <button id="search_btn" type="submit" form="search_form">
+                    <div id="search_icon">
                         <i class="fas fa-search"></i>
-                    </a>
-                </div>  
+                    </div>
+                </button> 
             </div>
         </section>
 
-<!-- Filtres -->
+        <section id="filters_section">
 
-        <section id="filters-section">
             <h1>Filtres</h1>
 
-            <div id="filters-container">
-                <div class="filter-box">
-                    <div class="filter-btn">
-                        <a class="filter-icon" href="#">
+            <div id="filters_container">
+
+                <div class="filter_box 1">
+                    <div class="filter_btn">
+                        <a class="filter_icon" href="#">
                             <i class="fas fa-money-bill-wave"></i>  
                         </a>
                     </div>
                     <p>Économique</p>
                 </div>
-                <div class="filter-box">
-                    <div class="filter-btn">
-                        <a class="filter-icon" href="#">
+
+                <div class="filter_box 2">
+                    <div class="filter_btn">
+                        <a class="filter_icon" href="#">
                             <i class="fas fa-child"></i>
                         </a>
                     </div>
                     <p>Familial</p>
                 </div>
-                <div class="filter-box">
-                    <div class="filter-btn">
-                        <a class="filter-icon" href="#">
+
+                <div class="filter_box 3">
+                    <div class="filter_btn">
+                        <a class="filter_icon" href="#">
                             <i class="fas fa-heart"></i>
                         </a>
                     </div>
                     <p>Romantique</p>
                 </div>
-                <div class="filter-box">
-                    <div class="filter-btn">
-                        <a class="filter-icon" href="#">
+
+                <div class="filter_box 4">
+                    <div class="filter_btn">
+                        <a class="filter_icon" href="#">
                             <i class="fas fa-dog"></i>
                         </a>
                     </div>
@@ -88,15 +92,17 @@
                 </div>
             </div>
 
-            <div id="info-container">
-                <div id="info-btn">
-                    <a id="info-icon" href="#">
+            <div id="info_container">
+                <div id="info_btn">
+                    <a id="info_icon" href="#">
                         <i class="fas fa-info"></i>
                     </a>
                 </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
+
+
     </div>
 </body>
 </html>
