@@ -1,6 +1,13 @@
 #page_block {
-  margin: 100px;
-  padding: 0;
+  width: 375px;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+body {
+  border: 1px solid black;
+  width: auto;
+  background-color: white;
 }
 
 /* search */
@@ -64,37 +71,12 @@
 
 #filters_container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  border: 1px solid red;
 }
 
-.filter_box:nth-child(1) {
-  position: relative;
-  display: flex;
-  border: 3px solid #f2f2f2;
-  border-radius: 30px;
-  height: 50px;
-  width: fit-content;
-}
-
-.filter_box:nth-child(2) {
-  position: relative;
-  display: flex;
-  border: 3px solid #f2f2f2;
-  border-radius: 30px;
-  height: 50px;
-  width: fit-content;
-}
-
-.filter_box:nth-child(3) {
-  position: relative;
-  display: flex;
-  border: 3px solid #f2f2f2;
-  border-radius: 30px;
-  height: 50px;
-  width: fit-content;
-}
-
-.filter_box:nth-child(4) {
+.filter_box {
   position: relative;
   display: flex;
   border: 3px solid #f2f2f2;
@@ -105,8 +87,8 @@
 
 .filter_btn {
   position: absolute;
-  left: -5px;
-  bottom: 0px;
+  left: -8px;
+  bottom: -2px;
   display: flex;
   width: 55px;
   height: 55px;
@@ -120,7 +102,7 @@
 }
 
 .filter_box p {
-  padding-left: 43px;
+  padding-left: 60px;
   padding-right: 20px;
 }
 
@@ -147,4 +129,67 @@
 
 #info_container p {
   padding-left: 10px;
+}
+
+/* accommodations */
+
+#famous_container {
+  background-color: #f2f2f2;
+  height: fit-content;
+  padding-bottom: 36px;
+}
+
+#famous_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.famous_box {
+  display: flex;
+  align-items: center;
+  width: 333px;
+  height: 145px;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.famous_img {
+  width: 126px;
+  height: 134px;
+  border-radius: 15px 0px 0px 15px;
+  background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 185%;
+  background-position: -45px -5px;
+  margin: auto;
+  margin-left: 5px;
+}
+
+.famous_txt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 180px;
+  height: 134px;
+}
+
+.famous_txt h2 {
+  position: absolute;
+  top: 0px;
+}
+
+.famous_txt p {
+  position: absolute;
+  top: 60px;
+}
+
+.star {
+  display: flex;
+  position: absolute;
+  color: #0065fc;
+  bottom: 0px;
+  font-size: 12px;
 }
