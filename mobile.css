@@ -146,77 +146,80 @@ body {
 
 .famous_box {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 335px;
-  height: 145px;
+  height: 144px;
   background-color: white;
   margin: auto;
   border-radius: 20px;
   margin-bottom: 10px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
+  padding: 5px;
+}
+
+.famous_txt_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 190px;
+  height: 100%;
+}
+
+.famous_txt_box h2 {
+  margin: 0px;
+}
+
+.famous_txt_box p {
+  margin: 0px;
+}
+
+.star_box {
+  border: 1px solid pink;
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+  color: #0065fc;
+  font-size: 12px;
+}
+
+.fsb2 .fas:nth-child(5) {
+  color: #e4e1e1;
+}
+
+.fsb3 .fas:nth-child(5) {
+  color: #e4e1e1;
 }
 
 #famous_img1 {
-  width: 126px;
-  height: 134px;
+  width: 127px;
+  height: 100%;
   border-radius: 15px 0px 0px 15px;
   background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 185%;
   background-position: -45px -5px;
-  margin: auto;
-  margin-left: 5px;
 }
 
 #famous_img2 {
-  width: 126px;
-  height: 134px;
+  width: 127px;
+  height: 100%;
   border-radius: 15px 0px 0px 15px;
   background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 185%;
   background-position: -45px -5px;
-  margin: auto;
-  margin-left: 5px;
 }
 
 #famous_img3 {
-  width: 126px;
-  height: 134px;
+  width: 127px;
+  height: 100%;
   border-radius: 15px 0px 0px 15px;
   background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0px -20px;
-  margin: auto;
-  margin-left: 5px;
-}
-
-.famous_txt_box {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-
-  width: 180px;
-  height: 134px;
-}
-
-.famous_txt_box h2 {
-  position: absolute;
-  top: 0px;
-}
-
-.famous_txt_box p {
-  position: absolute;
-  top: 60px;
-}
-
-.famous_txt_box .star {
-  display: flex;
-  position: absolute;
-  color: #0065fc;
-  bottom: 0px;
-  font-size: 12px;
 }
 
 /* accommodations */
@@ -227,18 +230,63 @@ body {
 }
 
 .places_box {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
   width: 335px;
   height: 200px;
   background-color: white;
-  margin: auto;
+  padding-top: 5px;
   border-radius: 20px;
   margin-bottom: 10px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
+}
+
+.places_txt_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 325px;
+  height: 70px;
+  padding-bottom: 5px;
+}
+
+.places_txt_box h2 {
+  border: 1px solid pink;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.places_txt_box p {
+  border: 1px solid rgb(112, 51, 161);
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.places_txt_box .star_box {
+  padding-left: 10px;
+}
+
+.psb1 .fas:nth-child(5) {
+  color: #e4e1e1;
+}
+
+.psb3 .fas:nth-child(5) {
+  color: #e4e1e1;
+}
+
+.psb4 .fas:nth-child(4) {
+  color: #e4e1e1;
+}
+
+.psb4 .fas:nth-child(5) {
+  color: #e4e1e1;
+}
+
+.psb5 .fas:nth-child(5) {
+  color: #e4e1e1;
 }
 
 #places_img1 {
@@ -299,27 +347,4 @@ body {
   background-repeat: no-repeat;
   background-size: 103%;
   background-position: -4px -193px;
-}
-
-.places_txt_box {
-  border: 1px solid black;
-  display: flex;
-  width: 325px;
-  height: 75px;
-}
-
-.places_txt_box h2 {
-  border: 1px solid pink;
-}
-
-.places_txt_box p {
-  border: 1px solid rgb(112, 51, 161);
-}
-
-.places_txt_box .star {
-  border: 1px solid pink;
-  display: flex;
-  color: #0065fc;
-  bottom: 0px;
-  font-size: 12px;
 }
