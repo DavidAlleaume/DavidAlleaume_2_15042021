@@ -1,7 +1,6 @@
 #page_block {
   width: 375px;
-  border: 1px solid blue;
-  padding: 20px;
+  border: 1px solid yellow;
 }
 
 body {
@@ -10,23 +9,46 @@ body {
   background-color: white;
 }
 
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
 /* search */
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  padding-left: 20px;
+}
 
 #search_box {
   position: relative;
   padding: 0px;
   border: 1px solid #f2f2f2;
-  width: 333px;
+  width: 335px;
   height: 50px;
   border-radius: 15px;
   display: flex;
+  margin: auto;
 }
 
 #map_btn {
   position: absolute;
   width: 51px;
   height: 51px;
-  right: 283px;
+  right: 285px;
   bottom: 0px;
   background-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
@@ -51,7 +73,7 @@ body {
 
 #search_btn {
   position: absolute;
-  left: 283px;
+  left: 285px;
   bottom: 0;
   width: 51px;
   height: 51px;
@@ -76,9 +98,14 @@ body {
   border: 1px solid red;
 }
 
+#filters_section h2 {
+  padding-left: 20px;
+}
+
 .filter_box {
   position: relative;
   display: flex;
+  align-items: center;
   border: 3px solid #f2f2f2;
   border-radius: 30px;
   height: 50px;
@@ -111,14 +138,16 @@ body {
 #info_container {
   display: flex;
   align-items: baseline;
+  border: 1px solid blue;
+  padding-left: 20px;
 }
 
 #info_btn {
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   background-color: white;
   border: 1px solid #f2f2f2;
-  border-radius: 25px;
+  border-radius: 12px;
   display: flex;
 }
 
@@ -167,12 +196,14 @@ body {
   height: 100%;
 }
 
-.famous_txt_box h2 {
+.famous_txt_box .name {
+  border: 1px solid red;
   margin: 0px;
 }
 
-.famous_txt_box p {
-  margin: 0px;
+.famous_txt_box .price {
+  padding: 0px;
+  border: 1px solid green;
 }
 
 .star_box {
@@ -245,6 +276,7 @@ body {
 }
 
 .places_txt_box {
+  border: 1px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -253,16 +285,16 @@ body {
   padding-bottom: 5px;
 }
 
-.places_txt_box h2 {
-  border: 1px solid pink;
+.places_txt_box .name {
+  padding: 0px 10px;
+  border: 1px solid red;
   margin: 0px;
-  padding-left: 10px;
 }
 
-.places_txt_box p {
-  border: 1px solid rgb(112, 51, 161);
+.places_txt_box .price {
+  padding: 0px 10px;
+  border: 1px solid green;
   margin: 0px;
-  padding-left: 10px;
 }
 
 .places_txt_box .star_box {
@@ -347,4 +379,88 @@ body {
   background-repeat: no-repeat;
   background-size: 103%;
   background-position: -4px -193px;
+}
+
+/* activities */
+
+.activities_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 335px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 8px rgb(209, 204, 204);
+}
+
+.activities_box p {
+  width: 335px;
+  height: 55px;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#activities_img1 {
+  border: 1px solid purple;
+  width: 335px;
+  height: 135px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -18px;
+}
+
+#activities_img2 {
+  width: 335px;
+  height: 135px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -155px;
+}
+
+#activities_img3 {
+  width: 335px;
+  height: 135px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -15px;
+}
+
+#activities_img4 {
+  width: 335px;
+  height: 135px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -15px;
+}
+
+#activities_img5 {
+  width: 335px;
+  height: 135px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -13px;
+}
+
+#activities_img6 {
+  width: 335px;
+  height: 135px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -28px;
 }
