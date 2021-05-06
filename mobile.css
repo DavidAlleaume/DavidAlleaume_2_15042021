@@ -1,58 +1,90 @@
-#page_block {
-  width: 375px;
-  border: 1px solid yellow;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 body {
   border: 1px solid black;
-  width: auto;
   background-color: white;
+  font-family: "Raleway", arial, sans-serif;
+  letter-spacing: -0.3px;
+  width: auto;
+}
+
+#page_block {
+  border: 1px solid purple;
+  max-width: 480px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  border: 1px solid pink;
 }
 
 nav ul {
-  list-style-type: none;
+  border: 1px solid pink;
   display: flex;
   justify-content: space-between;
-  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 1.04em;
+  font-weight: 400;
 }
 
 /* search */
 
-h1 {
-  font-family: "Raleway", sans-serif;
-  padding: 20px;
+#search_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#search_section p {
-  font-family: "Raleway", sans-serif;
-  padding: 20px;
+#search_title h1 {
+  border: 1px solid pink;
+  font-size: 1.4em;
+  font-weight: 700;
+  width: 333px;
+  padding: 0px;
+  margin-bottom: 16px;
 }
 
-#filters_section h2 {
-  font-family: "Raleway", sans-serif;
-  padding-left: 20px;
+#search_title h1::first-letter {
+  letter-spacing: -3px;
+}
+
+#search_title p {
+  border: 1px solid pink;
+  font-size: 1.04em;
+  font-weight: 400;
+  width: 333px;
+  padding: 0px;
+  margin-bottom: 35px;
 }
 
 #search_box {
   position: relative;
-  padding: 0px;
-  border: 1px solid #f2f2f2;
-  width: 335px;
-  height: 50px;
-  border-radius: 15px;
   display: flex;
-  margin: auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  width: 334px;
+  height: 49px;
+  padding: 0px;
+  margin-bottom: 36px;
 }
 
 #map_btn {
   position: absolute;
-  width: 51px;
-  height: 51px;
-  right: 285px;
-  bottom: 0px;
+  display: flex;
   background-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
-  display: flex;
+  width: 51px;
+  height: 51px;
+  right: 284px;
+  bottom: -1px;
 }
 
 #map_icon {
@@ -62,19 +94,22 @@ h1 {
 
 #search_txt {
   position: absolute;
-  top: 13px;
-  left: 50px;
-  width: 206px;
-  height: 20px;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
   border: none;
   outline: none;
+  width: 206px;
+  height: 20px;
+  top: 13px;
+  left: 50px;
   padding-left: 20px;
 }
 
 #search_btn {
   position: absolute;
-  left: 285px;
-  bottom: 0;
+  left: 283px;
+  bottom: -1px;
   width: 51px;
   height: 51px;
   background-color: #0065fc;
@@ -83,7 +118,7 @@ h1 {
   display: flex;
 }
 
-#search_icon {
+#search_btn .fas {
   margin: auto;
   color: white;
   font-size: 20px;
@@ -91,86 +126,109 @@ h1 {
 
 /* Filtres */
 
-#filters_section h2 {
-  padding-left: 20px;
+#filters_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#filters_section h1 {
+  border: 1px solid pink;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 0px;
+  padding-left: 3px;
+  width: 328px;
+  margin-bottom: 18px;
 }
 
 #filters_container {
+  border: 1px solid pink;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid blue;
-  padding-left: 20px;
-}
+  width: 328px;
 
-#filters_section h2 {
-  padding-left: 20px;
-  font-size: 11px;
-  font-weight: bold;
+  margin-bottom: 31px;
 }
 
 .filter_box {
   position: relative;
   display: flex;
   align-items: center;
-  border: 3px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  height: 44px;
+  height: 46px;
 }
 
 .fb1 {
-  width: 177px;
+  width: 173px;
   margin: 0px 11px 13px 0px;
 }
 
 .fb2 {
-  width: 139px;
+  width: 136px;
 }
 
 .fb3 {
-  width: 169px;
+  width: 165px;
   margin-bottom: 13px;
 }
 
 .fb4 {
-  width: 220px;
+  width: 216px;
 }
 
 .filter_btn {
   position: absolute;
   display: flex;
+  background-color: #deebff;
   width: 50px;
   height: 50px;
-  background-color: #deebff;
   border-radius: 50%;
   left: -3px;
 }
 
 .filter_icon {
-  margin: auto;
   color: #0065fc;
+  margin: auto;
+}
+
+.fb1 .fas {
+  font-size: 18px;
+}
+
+.fb2 .fas {
+  font-size: 21px;
+}
+
+.fb3 .fas {
+  font-size: 19px;
+}
+
+.fb4 .fas {
+  font-size: 21px;
 }
 
 .filter_box p {
-  padding-left: 62px;
+  font-size: 1em;
+  font-weight: 700;
+  padding-left: 60px;
 }
 
 /* info */
 
 #info_container {
   display: flex;
-  justify-content: flex-start;
   align-items: baseline;
-  border: 1px solid blue;
-  padding-left: 20px;
 }
 
 #info_btn {
+  display: flex;
+  background-color: white;
+  border: 1px solid #f2f2f2;
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background-color: white;
-  border: 1px solid #f2f2f2;
-  display: flex;
 }
 
 #info_btn .fas {
@@ -180,65 +238,68 @@ h1 {
 }
 
 #info_container p {
-  border: 1px solid blue;
+  border: 1px solid pink;
+  font-size: 1.04em;
+  font-weight: 400;
   padding: 0px;
-  width: 300px;
-  padding-left: 12px;
+  width: 297px;
+  margin: 0px 0px 0px 12px;
 }
 
 /* famous accommodations */
 
-#famous_container {
-  background-color: #f2f2f2;
-  height: fit-content;
-  padding-bottom: 36px;
-}
-
 #famous_title {
+  border: 1px solid pink;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-#famous_title h2 {
-  font-size: 13px;
+#famous_title h1 {
+  border: 1px solid pink;
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 0px;
+  margin-left: 20px;
 }
 
 #famous_title .fas {
-  font-size: 18px;
+  border: 1px solid pink;
+  font-size: 23px;
+  margin-right: 20px;
 }
 
 .famous_box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 335px;
+  width: 334px;
   height: 144px;
   background-color: white;
-  margin: auto;
   border-radius: 20px;
   margin-bottom: 10px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
-  padding: 5px;
+  margin: auto;
+  margin-bottom: 11px;
 }
 
 .famous_txt_box {
+  border: 1px solid pink;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
   width: 190px;
-  height: 100%;
+  height: 134px;
 }
 
 .famous_txt_box .name {
-  border: 1px solid red;
+  border: 1px solid pink;
   margin: 0px;
 }
 
 .famous_txt_box .price {
+  border: 1px solid pink;
   padding: 0px;
-  border: 1px solid green;
 }
 
 .star_box {
@@ -260,12 +321,13 @@ h1 {
 
 #famous_img1 {
   width: 127px;
-  height: 100%;
+  height: 134px;
   border-radius: 15px 0px 0px 15px;
   background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 185%;
   background-position: -45px -5px;
+  margin-left: 5px;
 }
 
 #famous_img2 {
@@ -289,11 +351,6 @@ h1 {
 }
 
 /* accommodations */
-
-#places_container {
-  height: fit-content;
-  padding-bottom: 36px;
-}
 
 .places_box {
   display: flex;
@@ -422,7 +479,6 @@ h1 {
   background-color: white;
   text-decoration: none;
   padding-left: 20px;
-  font-family: "Raleway", sans-serif;
 }
 
 /* activities */
