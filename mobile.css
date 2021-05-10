@@ -1,52 +1,79 @@
 body {
-  border: 1px solid black;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
   background-color: white;
+  font-size: 62.5%;
   font-family: "Raleway", arial, sans-serif;
   letter-spacing: -0.3px;
   width: auto;
+  min-width: 375px;
 }
 
 header {
-  border: 1px solid green;
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  height: 129px;
+  font-size: 1rem;
 }
 
-#logo {
-  border: 1px solid pink;
-}
-
-nav ul {
-  border: 1px solid pink;
+#logo_container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  list-style-type: none;
+  margin: 20px 20px;
+}
+
+#logo_img {
+  margin: 0px;
+}
+
+#subscribe a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #0065fc;
+}
+
+nav {
+  display: flex;
 }
 
 nav a {
-  border: 1px solid pink;
-  font-size: 1.04em;
-  font-weight: 400;
+  display: block;
+  color: black;
   text-decoration: none;
+  border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 10px;
+}
+
+nav a:hover {
+  color: #0065fc;
+  border-color: #0065fc;
+}
+
+#acco {
+  width: 50%;
+  text-align: center;
+}
+
+#acti {
+  width: 50%;
+  text-align: center;
 }
 
 /* search */
 
 #search_section {
-  border: 1px solid green;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 1px solid red;
+}
+
+#search_title {
+  margin: auto;
+  width: 88%;
+  max-width: 450px;
 }
 
 #search_title h1 {
-  border: 1px solid pink;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 700;
-  width: 333px;
-  padding: 0px;
-  margin-bottom: 16px;
 }
 
 #search_title h1::first-letter {
@@ -54,12 +81,9 @@ nav a {
 }
 
 #search_title p {
-  border: 1px solid pink;
-  font-size: 1.04em;
+  font-size: 1rem;
   font-weight: 400;
-  width: 333px;
-  padding: 0px;
-  margin-bottom: 35px;
+  padding-top: 10px;
 }
 
 #search_box {
@@ -70,7 +94,9 @@ nav a {
   width: 334px;
   height: 49px;
   padding: 0px;
-  margin-bottom: 36px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 #map_btn {
@@ -93,14 +119,14 @@ nav a {
   position: absolute;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   border: none;
   outline: none;
   width: 206px;
   height: 20px;
   top: 13px;
   left: 50px;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 #search_btn {
@@ -124,29 +150,27 @@ nav a {
 /* Filtres */
 
 #filters_section {
-  border: 1px solid green;
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #filters_section h1 {
-  border: 1px solid pink;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 700;
   padding: 0px;
   padding-left: 3px;
   width: 328px;
-  margin-bottom: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #filters_container {
-  border: 1px solid pink;
   display: flex;
   flex-wrap: wrap;
   width: 328px;
-
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 }
 
 .filter_box {
@@ -208,7 +232,7 @@ nav a {
 }
 
 .filter_box p {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 700;
   padding-left: 60px;
 }
@@ -216,10 +240,9 @@ nav a {
 /* info */
 
 #info_container {
-  border: 1px solid pink;
   display: flex;
   align-items: baseline;
-  margin-bottom: 39px;
+  margin-bottom: 35px;
 }
 
 #info_btn {
@@ -238,7 +261,7 @@ nav a {
 }
 
 #info_container p {
-  font-size: 1.04em;
+  font-size: 1rem;
   font-weight: 400;
   padding: 0px;
   width: 297px;
@@ -247,19 +270,19 @@ nav a {
 
 /* famous accommodations */
 
-#accommodation h1 {
-  font-size: 1.4em;
+#accommodations h1 {
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
 .name {
   font-weight: 700;
-  font-size: 1.05em;
+  font-size: 1rem;
 }
 
 .price {
   font-weight: 400;
-  font-size: 93%;
+  font-size: 0.89rem;
 }
 
 .star_box {
@@ -267,17 +290,15 @@ nav a {
   display: flex;
   justify-content: space-between;
   color: #0065fc;
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 
 #famous_container {
-  border: 1px solid green;
   background-color: #f2f2f2;
   padding-bottom: 26px;
 }
 
 #famous_title {
-  border: 1px solid pink;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -286,11 +307,11 @@ nav a {
 }
 
 #famous_title h1 {
-  margin: 43px 0 22px 0;
+  margin: 35px 0 20px 0;
 }
 
 #famous_title .fas {
-  font-size: 23px;
+  font-size: 1.4rem;
 }
 
 .famous_box {
@@ -303,7 +324,7 @@ nav a {
   margin-bottom: 10px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
   margin: auto;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 
 .famous_txt_box {
@@ -316,11 +337,11 @@ nav a {
 }
 
 .famous_txt_box .price {
-  margin: 5px 0 0 20px;
+  margin: 7px 0 0 20px;
 }
 
 .famous_txt_box .star_box {
-  margin: 38px 0 0 20px;
+  margin: 44px 0 0 20px;
 }
 
 .fsb2 .fas:nth-child(5) {
@@ -361,15 +382,11 @@ nav a {
 
 /* accommodations */
 
-#places_container {
-  border: 1px solid green;
-}
-
 #places_container h1 {
   width: 335px;
   margin: auto;
-  margin-top: 41px;
-  margin-bottom: 19px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 .places_box {
@@ -379,11 +396,11 @@ nav a {
   align-items: center;
   margin: auto;
   width: 335px;
-  height: 200px;
+  height: 199px;
   background-color: white;
   padding-top: 5px;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
 }
 
@@ -393,11 +410,11 @@ nav a {
 }
 
 .places_txt_box .name {
-  margin: 9px 0 0 10px;
+  margin: 10px 0 0 10px;
 }
 
 .places_txt_box .price {
-  margin: 6px 0 9px 10px;
+  margin: 6px 0 10px 10px;
 }
 
 .places_txt_box .star_box {
@@ -472,18 +489,27 @@ nav a {
   background-position: -4px -193px;
 }
 
-#more_btn {
-  border: none;
-  color: black;
-  background-color: white;
-  text-decoration: none;
-  padding-left: 20px;
+#more {
+  width: 335px;
+  margin: auto;
+  margin-top: 25px;
 }
 
+#more a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
 /* activities */
 
-#activities {
-  border: 1px solid green;
+#activities h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 335px;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 32px;
 }
 
 .activities_box {
@@ -495,7 +521,7 @@ nav a {
   height: 190px;
   background-color: white;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
 }
 
