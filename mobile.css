@@ -4,6 +4,7 @@ body {
   padding: 0px;
   background-color: white;
   font-size: 62.5%;
+  font-weight: 400;
   font-family: "Raleway", arial, sans-serif;
   letter-spacing: -0.3px;
   width: auto;
@@ -14,31 +15,22 @@ header {
   font-size: 1.07rem;
 }
 
-#top_container {
+#logo {
+  width: fit-content;
+  margin: 25px 0px 25px 20px;
+}
+
+header ul {
+  height: 35px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin: 20px 20px;
+  list-style-type: none;
+  padding: 0px;
 }
 
-#logo_img {
-  margin: 0px;
-}
-
-#subscribe a {
+header a {
   text-decoration: none;
-  font-weight: 700;
-  color: #0065fc;
-}
-
-nav {
-  display: flex;
-}
-
-nav a {
-  display: block;
   color: black;
-  text-decoration: none;
   border-bottom: 3px solid #f2f2f2;
   padding-bottom: 10px;
 }
@@ -49,13 +41,23 @@ nav a:hover {
 }
 
 #acco_link {
-  width: 50%;
+  position: absolute;
   text-align: center;
+  width: 50%;
 }
 
 #acti_link {
-  width: 50%;
+  position: absolute;
   text-align: center;
+  width: 50%;
+}
+
+#subscribe {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  width: fit-content;
+  border: none;
 }
 
 /* search */
@@ -78,7 +80,7 @@ nav a:hover {
   letter-spacing: -3px;
 }
 
-#search_section p {
+#search_section h2 {
   font-size: 1.07rem;
   font-weight: 400;
   margin: 10px 0 30px;
@@ -92,8 +94,8 @@ nav a:hover {
   border-radius: 15px;
   width: 334px;
   height: 49px;
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
 #map_btn {
@@ -128,6 +130,7 @@ nav a:hover {
 
 #search_btn {
   position: absolute;
+  display: flex;
   left: 283px;
   bottom: -1px;
   width: 51px;
@@ -135,13 +138,12 @@ nav a:hover {
   background-color: #0065fc;
   border-radius: 15px;
   border: none;
-  display: flex;
 }
 
 #search_btn .fas {
-  margin: auto;
   color: white;
   font-size: 20px;
+  margin: auto;
 }
 
 /* Filtres */
@@ -227,7 +229,7 @@ nav a:hover {
   font-size: 21px;
 }
 
-.filter_box p {
+.filter_box h2 {
   font-size: 1rem;
   font-weight: 700;
   padding-left: 60px;
@@ -312,7 +314,6 @@ nav a:hover {
   max-width: 400px;
   background-color: white;
   border-radius: 20px;
-  margin-bottom: 10px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
   margin: auto;
   margin-bottom: 10px;
@@ -364,30 +365,26 @@ nav a:hover {
 }
 
 .famous_img {
-  width: 40%;
-  flex-basis: 127px;
+  width: 127px;
   height: 134px;
   border-radius: 15px 0px 0px 15px;
   margin-left: 5px;
 }
 
 .fi1 {
-  background-image: url(images/hebergements/4_small/soleil-du-matin.jpg);
-  background-repeat: no-repeat;
+  background: url(images/soleil-du-matin.jpg) no-repeat;
   background-size: 170%;
   background-position: -45px -5px;
 }
 
 .fi2 {
-  background-image: url(images/hebergements/4_small/coeur-de-l-eau.jpg);
-  background-repeat: no-repeat;
+  background: url(images/coeur-de-l-eau.jpg) no-repeat;
   background-size: 150%;
   background-position: -32px -5px;
 }
 
 .fi3 {
-  background-image: url(images/hebergements/4_small/bleu-et-blanc.jpg);
-  background-repeat: no-repeat;
+  background: url(images/bleu-et-blanc.jpg) no-repeat;
   background-size: 107%;
   background-position: -4px -35px;
 }
@@ -465,58 +462,51 @@ nav a:hover {
 }
 
 .pi1 {
-  background-image: url(images/hebergements/3_medium/auberge-la-cannebiere.jpg);
-  background-repeat: no-repeat;
+  background: url(images/auberge-la-cannebiere.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -55px;
 }
 
 .pi2 {
-  background-image: url(images/hebergements/3_medium/hotel-du-port.jpg);
-  background-repeat: no-repeat;
+  background: url(images/hotel-du-port.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -55px;
 }
 
 .pi3 {
-  background-image: url(images/hebergements/3_medium/hotel-les-mouettes.jpg);
-  background-repeat: no-repeat;
+  background: url(images/hotel-les-mouettes.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -55px;
 }
 
 .pi4 {
-  background-image: url(images/hebergements/3_medium/hotel-de-la-mer.jpg);
-  background-repeat: no-repeat;
+  background: url(images/hotel-de-la-mer.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -97px;
 }
 
 .pi5 {
-  background-image: url(images/hebergements/3_medium/auberge-le-panier.jpg);
-  background-repeat: no-repeat;
+  background: url(images/auberge-le-panier.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -35px;
 }
 
 .pi6 {
-  background-image: url(images/hebergements/3_medium/hotel-chez-amina.jpg);
-  background-repeat: no-repeat;
+  background: url(images/hotel-chez-amina.jpg) no-repeat;
   background-size: 103%;
   background-position: -4px -193px;
 }
 
 #more {
-  width: fit-content;
-  margin: 20px 0 0 20px;
-}
-
-#more a {
+  display: block;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
   font-weight: 700;
+  width: fit-content;
+  margin: 20px 0 0 20px;
 }
+
 /* activities */
 
 #activities {
@@ -552,8 +542,8 @@ nav a:hover {
 }
 
 .activities_txt_box .name {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 .activities_img {
@@ -563,43 +553,37 @@ nav a:hover {
 }
 
 .ai1 {
-  background-image: url(images/activites/3_medium/vieux-port.jpg);
-  background-repeat: no-repeat;
+  background: url(images/vieux-port.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -18px;
 }
 
 .ai2 {
-  background-image: url(images/activites/4_small/fort-de-pomegues.jpg);
-  background-repeat: no-repeat;
+  background: url(images/fort-de-pomegues.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -155px;
 }
 
 .ai3 {
-  background-image: url(images/activites/3_medium/iles-du-frioul.jpg);
-  background-repeat: no-repeat;
+  background: url(images/iles-du-frioul.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -15px;
 }
 
 .ai4 {
-  background-image: url(images/activites/2_large/les-calanques.jpg);
-  background-repeat: no-repeat;
+  background: url(images/les-calanques.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -15px;
 }
 
 .ai5 {
-  background-image: url(images/activites/4_small/nd-de-la-garde.jpg);
-  background-repeat: no-repeat;
+  background: url(images/nd-de-la-garde.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -13px;
 }
 
 .ai6 {
-  background-image: url(images/activites/3_medium/parc-longchamp.jpg);
-  background-repeat: no-repeat;
+  background: url(images/parc-longchamp.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -28px;
 }
@@ -607,12 +591,34 @@ nav a:hover {
 footer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   background-color: #f2f2f2;
-  padding: 0 0 30px 30px;
+  padding: 0px;
 }
 
-footer h2 {
+.about {
+  margin: 45px 0 0 20px;
+}
+
+.our_acco {
+  margin: 25px 0 0 20px;
+}
+
+.help {
+  margin: 40px 0 40px 20px;
+}
+
+.footer_lst ul {
+  list-style-type: none;
+  width: fit-content;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer li {
+  margin: 0 0 10px 0;
+}
+
+.footer_lst h2 {
   font-size: 1.1rem;
   font-weight: 700;
   width: fit-content;
@@ -621,22 +627,8 @@ footer h2 {
 
 footer a {
   width: fit-content;
-  display: block;
   text-decoration: none;
   color: black;
   font-size: 1.05rem;
   font-weight: 400;
-  margin-bottom: 10px;
-}
-
-#about {
-  margin-top: 40px;
-}
-
-#our_acco {
-  margin-top: 30px;
-}
-
-#help {
-  margin-top: 30px;
 }
