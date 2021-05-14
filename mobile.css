@@ -1,347 +1,96 @@
 body {
-  border: 1px solid black;
-  margin: 0px;
-  padding: 0px;
-  background-color: white;
-  font-size: 62.5%;
-  font-weight: 400;
-  font-family: "Raleway", arial, sans-serif;
-  letter-spacing: -0.3px;
-  width: auto;
   min-width: 375px;
 }
 
-header {
-  font-size: 1.07rem;
+#logo {
+  margin: 25px 0px 25px 20px;
 }
 
-#logo {
-  width: fit-content;
-  margin: 25px 0px 25px 20px;
+header {
+  flex-direction: column;
 }
 
 header ul {
   height: 35px;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0px;
 }
 
 header a {
-  text-decoration: none;
-  color: black;
   border-bottom: 3px solid #f2f2f2;
   padding-bottom: 10px;
 }
 
-nav a:hover {
-  color: #0065fc;
-  border-color: #0065fc;
-}
-
 #acco_link {
-  position: absolute;
-  text-align: center;
   width: 50%;
 }
 
 #acti_link {
-  position: absolute;
-  text-align: center;
   width: 50%;
 }
 
 #subscribe {
-  position: absolute;
   top: 45px;
   right: 20px;
   width: fit-content;
-  border: none;
 }
 
 /* search */
 
 #search_section {
-  display: flex;
-  flex-direction: column;
   margin-left: 20px;
 }
 
 #search_section h1 {
-  font-size: 1.45rem;
-  font-weight: 700;
-  width: 100%;
   margin: 30px 0 0;
-  padding: 0px;
-}
-
-#search_section h1::first-letter {
-  letter-spacing: -3px;
 }
 
 #search_section h2 {
-  font-size: 1.07rem;
-  font-weight: 400;
   margin: 10px 0 30px;
   padding: 0px;
-}
-
-#search_box {
-  position: relative;
-  display: flex;
-  border: 1px solid #f2f2f2;
-  border-radius: 15px;
-  width: 334px;
-  height: 49px;
-  margin: 0px;
-  padding: 0px;
-}
-
-#map_btn {
-  position: absolute;
-  display: flex;
-  background-color: #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
-  width: 51px;
-  height: 51px;
-  right: 284px;
-  bottom: -1px;
-}
-
-#map_icon {
-  width: 15px;
-  margin: auto;
-}
-
-#search_txt {
-  position: absolute;
-  font-family: "Raleway", arial, sans-serif;
-  font-weight: 700;
-  font-size: 1.1rem;
-  border: none;
-  outline: none;
-  width: 206px;
-  height: 20px;
-  top: 13px;
-  left: 50px;
-  padding-left: 15px;
-}
-
-#search_btn {
-  position: absolute;
-  display: flex;
-  left: 283px;
-  bottom: -1px;
-  width: 51px;
-  height: 51px;
-  background-color: #0065fc;
-  border-radius: 15px;
-  border: none;
-}
-
-#search_btn .fas {
-  color: white;
-  font-size: 20px;
-  margin: auto;
 }
 
 /* Filtres */
 
 #filters_section {
-  display: flex;
-  flex-direction: column;
   margin-left: 20px;
+  flex-direction: column;
 }
 
 #filters_section h1 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  width: 100%;
   margin: 30px 0 12px;
-  padding: 0px;
-}
-
-#filters_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 
 .filter_box {
-  position: relative;
-  display: flex;
-  align-items: center;
-  border: 2px solid #f2f2f2;
-  border-radius: 30px 30px 30px 30px;
-  height: 46px;
   margin: 0px 11px 13px 0px;
-}
-
-.fb1 {
-  width: 173px;
-}
-
-.fb2 {
-  width: 136px;
-}
-
-.fb3 {
-  width: 165px;
-}
-
-.fb4 {
-  width: 216px;
-  margin-bottom: 0px;
-}
-
-.filter_btn {
-  position: absolute;
-  display: flex;
-  background-color: #deebff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  left: -3px;
-}
-
-.filter_icon {
-  color: #0065fc;
-  margin: auto;
-}
-
-.fb1 .fas {
-  font-size: 18px;
-}
-
-.fb2 .fas {
-  font-size: 21px;
-}
-
-.fb3 .fas {
-  font-size: 19px;
-}
-
-.fb4 .fas {
-  font-size: 21px;
-}
-
-.filter_box h2 {
-  font-size: 1rem;
-  font-weight: 700;
-  padding-left: 60px;
 }
 
 /* info */
 
-#info_container {
-  display: flex;
-  align-items: baseline;
-  margin: 30px 0 30px;
-  padding: 0px;
+#info_section {
+  margin: 30px 0 30px 20px;
 }
 
-#info_btn {
-  display: flex;
-  background-color: white;
-  border: 1px solid #f2f2f2;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-}
+/* accommodations */
 
-#info_btn .fas {
-  margin: auto;
-  color: #0065fc;
-  font-size: 12px;
-}
-
-#info_container p {
-  font-size: 1.07rem;
-  font-weight: 400;
-  padding: 0px;
-  width: 100%;
-  margin: 0px 0px 0px 12px;
-}
-
-/* famous accommodations */
-
-#accomodations {
-  display: flex;
+#accommodations {
   flex-direction: column;
 }
 
-#accommodations h1 {
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
 #famous_container {
-  background-color: #f2f2f2;
   padding: 20px 0 26px 0;
 }
 
 #famous_title {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin: 20px;
-}
-
-#famous_title h1 {
-  margin: 0px;
-}
-
-#famous_title .fas {
-  font-size: 1.4rem;
-}
-
-#famous_card_container {
-  width: 100%;
-  margin: 0px;
+  margin: 25px;
 }
 
 .famous_card {
-  display: block;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
   width: 335px;
-  height: 144px;
-  max-width: 400px;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px rgb(209, 204, 204);
-  margin: auto;
   margin-bottom: 10px;
 }
 
 .famous_txt_box {
   height: 134px;
   width: 180px;
-}
-
-.name {
-  font-weight: 700;
-  font-size: 1rem;
-  color: black;
-}
-
-.price {
-  font-weight: 400;
-  font-size: 0.89rem;
-  color: black;
-}
-
-.star_box {
-  width: 70px;
-  display: flex;
-  justify-content: space-between;
-  color: #0065fc;
-  font-size: 0.7rem;
 }
 
 .famous_txt_box .name {
@@ -356,14 +105,6 @@ nav a:hover {
   margin: 44px 0 0 20px;
 }
 
-.fsb2 .fas:nth-child(5) {
-  color: #e4e1e1;
-}
-
-.fsb3 .fas:nth-child(5) {
-  color: #e4e1e1;
-}
-
 .famous_img {
   width: 127px;
   height: 134px;
@@ -372,227 +113,128 @@ nav a:hover {
 }
 
 .fi1 {
-  background: url(images/soleil-du-matin.jpg) no-repeat;
   background-size: 170%;
   background-position: -45px -5px;
 }
 
 .fi2 {
-  background: url(images/coeur-de-l-eau.jpg) no-repeat;
   background-size: 150%;
   background-position: -32px -5px;
 }
 
 .fi3 {
-  background: url(images/bleu-et-blanc.jpg) no-repeat;
   background-size: 107%;
   background-position: -4px -35px;
 }
 
 /* accommodations */
 
-#places_container {
-  display: flex;
-  flex-direction: column;
-}
-
 #places_container h1 {
-  width: fit-content;
   margin: 35px 0 20px 20px;
 }
 
 .places_card {
-  display: block;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: auto;
   width: 335px;
   height: 199px;
-  background-color: white;
-  padding-top: 5px;
-  border-radius: 20px;
   margin-bottom: 12px;
-  box-shadow: 2px 2px 8px rgb(209, 204, 204);
 }
 
 .places_txt_box {
   width: 325px;
-  height: 80px;
-}
-
-.places_txt_box .name {
-  margin: 10px 0 0 10px;
-}
-
-.places_txt_box .price {
-  margin: 6px 0 10px 10px;
-}
-
-.places_txt_box .star_box {
-  margin-left: 9px;
-}
-
-.psb1 .fas:nth-child(5) {
-  color: #e4e1e1;
-}
-
-.psb3 .fas:nth-child(5) {
-  color: #e4e1e1;
-}
-
-.psb4 .fas:nth-child(4) {
-  color: #e4e1e1;
-}
-
-.psb4 .fas:nth-child(5) {
-  color: #e4e1e1;
-}
-
-.psb5 .fas:nth-child(5) {
-  color: #e4e1e1;
 }
 
 .places_img {
   width: 325px;
-  height: 115px;
-  border-radius: 15px 15px 0px 0px;
 }
 
 .pi1 {
-  background: url(images/auberge-la-cannebiere.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -55px;
 }
 
 .pi2 {
-  background: url(images/hotel-du-port.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -55px;
 }
 
 .pi3 {
-  background: url(images/hotel-les-mouettes.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -55px;
 }
 
 .pi4 {
-  background: url(images/hotel-de-la-mer.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -97px;
 }
 
 .pi5 {
-  background: url(images/auberge-le-panier.jpg) no-repeat;
   background-size: 103%;
   background-position: -5px -35px;
 }
 
 .pi6 {
-  background: url(images/hotel-chez-amina.jpg) no-repeat;
   background-size: 103%;
   background-position: -4px -193px;
 }
 
 #more {
-  display: block;
-  text-decoration: none;
-  color: black;
-  font-size: 1.1rem;
-  font-weight: 700;
-  width: fit-content;
   margin: 20px 0 0 20px;
 }
 
 /* activities */
 
 #activities {
-  display: flex;
   flex-direction: column;
 }
 
 #activities h1 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  width: fit-content;
   margin: 40px 0 32px 20px;
 }
 
 .activities_card {
-  display: block;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: auto;
   width: 335px;
   height: 190px;
-  background-color: white;
-  border-radius: 20px;
   margin-bottom: 24px;
-  box-shadow: 2px 2px 8px rgb(209, 204, 204);
 }
 
 .activities_txt_box {
   width: 335px;
-  height: 55px;
-}
-
-.activities_txt_box .name {
-  margin-left: 15px;
-  margin-top: 20px;
-}
-
-.activities_img {
-  width: 335px;
-  height: 135px;
-  border-radius: 20px 20px 0px 0px;
 }
 
 .ai1 {
-  background: url(images/vieux-port.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -18px;
 }
 
 .ai2 {
-  background: url(images/fort-de-pomegues.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -155px;
 }
 
 .ai3 {
-  background: url(images/iles-du-frioul.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -15px;
 }
 
 .ai4 {
-  background: url(images/les-calanques.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -15px;
 }
 
 .ai5 {
-  background: url(images/nd-de-la-garde.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -13px;
 }
 
 .ai6 {
-  background: url(images/parc-longchamp.jpg) no-repeat;
   background-size: 100%;
   background-position: 0px -28px;
 }
 
+/* Footer */
+
 footer {
-  display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
-  padding: 0px;
 }
 
 .about {
@@ -605,30 +247,4 @@ footer {
 
 .help {
   margin: 40px 0 40px 20px;
-}
-
-.footer_lst ul {
-  list-style-type: none;
-  width: fit-content;
-  padding: 0px;
-  margin: 0px;
-}
-
-footer li {
-  margin: 0 0 10px 0;
-}
-
-.footer_lst h2 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  width: fit-content;
-  margin: 0 0 20px 0;
-}
-
-footer a {
-  width: fit-content;
-  text-decoration: none;
-  color: black;
-  font-size: 1.05rem;
-  font-weight: 400;
 }
