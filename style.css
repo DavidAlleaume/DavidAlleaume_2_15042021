@@ -121,34 +121,17 @@ nav a:hover {
   padding-left: 15px;
 }
 
-#search_btn {
-  position: absolute;
-  display: flex;
-  left: 283px;
-  bottom: -1px;
-  width: 51px;
-  height: 51px;
-  background-color: #0065fc;
-  border-radius: 15px;
-  border: none;
-}
-
-#search_btn .fas {
-  color: white;
-  font-size: 20px;
-  margin: auto;
-}
-
 /* Filtres */
 
 #filters_section {
   display: flex;
+  justify-content: flex-start;
 }
 
 #filters_section h1 {
   font-size: 1.1rem;
   font-weight: 700;
-  width: 100%;
+  margin: 0px;
 }
 
 #filters_container {
@@ -169,26 +152,10 @@ nav a:hover {
   height: 46px;
 }
 
-.fb1 {
-  width: 173px;
-}
-
-.fb2 {
-  width: 136px;
-}
-
-.fb3 {
-  width: 165px;
-}
-
-.fb4 {
-  width: 216px;
-  margin-bottom: 0px;
-}
-
 .filter_btn {
   position: absolute;
   display: flex;
+  display: block;
   background-color: #deebff;
   width: 50px;
   height: 50px;
@@ -196,31 +163,37 @@ nav a:hover {
   left: -3px;
 }
 
-.filter_icon {
+.filter_btn:hover {
+  width: 53px;
+  height: 53px;
+  border: 2px solid #f2f2f2;
+}
+
+.filter_btn .fas {
+  position: absolute;
   color: #0065fc;
-  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .fb1 .fas {
   font-size: 18px;
+  top: 15px;
 }
 
 .fb2 .fas {
   font-size: 21px;
+  top: 15px;
 }
 
 .fb3 .fas {
   font-size: 19px;
+  top: 17px;
 }
 
 .fb4 .fas {
   font-size: 21px;
-}
-
-.filter_box h2 {
-  font-size: 1rem;
-  font-weight: 700;
-  padding-left: 60px;
+  top: 15px;
 }
 
 /* info */

@@ -48,6 +48,28 @@ header a {
   padding: 0px;
 }
 
+#search_btn1 {
+  position: absolute;
+  display: flex;
+  left: 283px;
+  bottom: -1px;
+  width: 51px;
+  height: 51px;
+  background-color: #0065fc;
+  border-radius: 15px;
+  border: none;
+}
+
+#search_btn1 .fas {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+#search_btn2 {
+  display: none;
+}
+
 /* Filtres */
 
 #filters_section {
@@ -59,8 +81,31 @@ header a {
   margin: 30px 0 12px;
 }
 
+.filter_box h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 60px;
+}
+
 .filter_box {
   margin: 0px 11px 13px 0px;
+}
+
+.fb1 {
+  width: 173px;
+}
+
+.fb2 {
+  width: 136px;
+}
+
+.fb3 {
+  width: 165px;
+}
+
+.fb4 {
+  width: 216px;
+  margin-bottom: 0px;
 }
 
 /* info */

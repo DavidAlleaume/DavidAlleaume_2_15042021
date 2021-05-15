@@ -39,8 +39,11 @@
             </div>
             <form id="search_form" method="post" action="traitement.php">
                 <input id="search_txt" type="text" name="search_request" placeholder="Ville, Pays" />
-                <button id="search_btn" type="submit">
+                <button id="search_btn1" type="submit">
                     <i class="fas fa-search"></i>
+                </button>
+                <button id="search_btn2" type="submit">
+                    <p id="search">Rechercher</p>
                 </button>
             </form>
         </div>
@@ -49,35 +52,35 @@
         <h1>Filtres</h1>
         <div id="filters_container">
             <div class="filter_box fb1">
-                <div class="filter_btn">
-                    <a class="filter_icon" href="">
+                <a class="filter_btn" href="">
+                    <div class="filter_icon">
                         <i class="fas fa-money-bill-wave"></i>
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <h2>Économique</h2>
             </div>
             <div class="filter_box fb2">
-                <div class="filter_btn">
-                    <a class="filter_icon" href="">
+                <a class="filter_btn" href="">
+                    <div class="filter_icon">
                         <i class="fas fa-child"></i>
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <h2>Familial</h2>
             </div>
             <div class="filter_box fb3">
-                <div class="filter_btn">
-                    <a class="filter_icon" href="">
+                <a class="filter_btn" href="">
+                    <div class="filter_icon">
                         <i class="fas fa-heart"></i>
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <h2>Romantique</h2>
             </div>
             <div class="filter_box fb4">
-                <div class="filter_btn">
-                    <a class="filter_icon" href="">
+                <a class="filter_btn" href="">
+                    <div class="filter_icon">
                         <i class="fas fa-dog"></i>
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <h2>Animaux autorisés</h2>
             </div>
         </div>
@@ -233,42 +236,46 @@
     <section id="activities">
         <h1 id="acti">Activités à Marseille</h1>
         <div id="activities_card_container">
-            <a class="activities_card" href="">
+            <a class="activities_card card1" href="">
                 <div class="activities_img ai1"></div>
                 <div class="activities_txt_box">
                     <h2 class="name">Vieux Port</h2>
                 </div>
             </a>
-            <a class="activities_card" href="">
-                <div class="activities_img ai2"></div>
-                <div class="activities_txt_box">
-                    <h2 class="name">Fort de Pomègues</h2>
-                </div>
-            </a>
-            <a class="activities_card" href="">
-                <div class="activities_img ai3"></div>
-                <div class="activities_txt_box">
-                    <h2 class="name">Îles du Frioul</h2>
-                </div>
-            </a>
-            <a class="activities_card" href="">
+            <div class="card_box">
+                <a class="activities_card card2" href="">
+                    <div class="activities_img ai2"></div>
+                    <div class="activities_txt_box">
+                        <h2 class="name">Fort de Pomègues</h2>
+                    </div>
+                </a>
+                <a class="activities_card card3" href="">
+                    <div class="activities_img ai3"></div>
+                    <div class="activities_txt_box">
+                        <h2 class="name">Îles du Frioul</h2>
+                    </div>
+                </a>
+            </div>
+            <a class="activities_card card4" href="">
                 <div class="activities_img ai4"></div>
                 <div class="activities_txt_box">
                     <h2 class="name">Parc National des Calanques</h2>
                 </div>
             </a>
-            <a class="activities_card" href="">
-                <div class="activities_img ai5"></div>
-                <div class="activities_txt_box">
-                    <h2 class="name">Notre-Dame-de-la-Garde</h2>
-                </div>
-            </a>
-            <a class="activities_card" href="">
-                <div class="activities_img ai6"></div>
-                <div class="activities_txt_box">
-                    <h2 class="name">Parc Longchamp</h2>
-                </div>
-            </a>
+            <div class="card_box">
+                <a class="activities_card card5" href="">
+                    <div class="activities_img ai5"></div>
+                    <div class="activities_txt_box">
+                        <h2 class="name">Notre-Dame-de-la-Garde</h2>
+                    </div>
+                </a>
+                <a class="activities_card card6" href="">
+                    <div class="activities_img ai6"></div>
+                    <div class="activities_txt_box">
+                        <h2 class="name">Parc Longchamp</h2>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
     <footer>
