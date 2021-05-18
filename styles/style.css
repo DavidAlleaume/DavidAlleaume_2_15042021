@@ -1,19 +1,23 @@
+html {
+  font-size: 16px;
+}
+
 body {
   border: 1px solid black;
+  width: 100%;
+  min-width: 23.438rem;
   margin: 0px;
   padding: 0px;
   background-color: white;
-  font-size: 62.5%;
   font-weight: 400;
   font-family: "Raleway", arial, sans-serif;
-  letter-spacing: -0.3px;
-  width: auto;
-  min-width: 375px;
+  letter-spacing: -0.019rem;
 }
 
 header {
   display: flex;
   font-size: 1.07rem;
+  width: 100%;
 }
 
 #logo {
@@ -50,9 +54,6 @@ nav a:hover {
 #subscribe {
   color: #0065fc;
   position: absolute;
-  top: 45px;
-  right: 20px;
-  width: fit-content;
   border: none;
 }
 
@@ -67,12 +68,11 @@ nav a:hover {
   font-size: 1.45rem;
   font-weight: 700;
   width: 100%;
-
   padding: 0px;
 }
 
 #search_section h1::first-letter {
-  letter-spacing: -3px;
+  letter-spacing: -0.188rem;
 }
 
 #search_section h2 {
@@ -83,9 +83,9 @@ nav a:hover {
 #search_box {
   position: relative;
   display: flex;
-  border: 1px solid #f2f2f2;
-  border-radius: 15px;
-  width: 334px;
+  border: 0.063rem solid #f2f2f2;
+  border-radius: 0.938rem;
+  width: 20.875rem;
   height: 49px;
   margin: 0px;
   padding: 0px;
@@ -95,15 +95,15 @@ nav a:hover {
   position: absolute;
   display: flex;
   background-color: #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
-  width: 51px;
-  height: 51px;
-  right: 284px;
-  bottom: -1px;
+  border-radius: 0.938rem 0px 0px 0.938rem;
+  width: 3.188rem;
+  height: 3.188rem;
+  right: 17.75rem;
+  bottom: -0.063rem;
 }
 
 #map_icon {
-  width: 15px;
+  width: 0.938rem;
   margin: auto;
 }
 
@@ -114,11 +114,11 @@ nav a:hover {
   font-size: 1.1rem;
   border: none;
   outline: none;
-  width: 206px;
-  height: 20px;
-  top: 13px;
-  left: 50px;
-  padding-left: 15px;
+  width: 18.875rem;
+  height: 1.25rem;
+  top: 0.813rem;
+  left: 3.125rem;
+  padding-left: 0.938rem;
 }
 
 /* Filtres */
@@ -147,9 +147,9 @@ nav a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  border: 2px solid #f2f2f2;
-  border-radius: 30px 30px 30px 30px;
-  height: 46px;
+  border: 0.125rem solid #f2f2f2;
+  border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
+  height: 2.875rem;
 }
 
 .filter_btn {
@@ -157,16 +157,16 @@ nav a:hover {
   display: flex;
   display: block;
   background-color: #deebff;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
-  left: -3px;
+  left: -0.188rem;
 }
 
 .filter_btn:hover {
-  width: 53px;
-  height: 53px;
-  border: 2px solid #f2f2f2;
+  width: 3.313rem;
+  height: 3.313rem;
+  border: 0.188rem solid #f2f2f2;
 }
 
 .filter_btn .fas {
@@ -177,23 +177,23 @@ nav a:hover {
 }
 
 .fb1 .fas {
-  font-size: 18px;
-  top: 15px;
+  font-size: 1.125rem;
+  top: 0.938rem;
 }
 
 .fb2 .fas {
-  font-size: 21px;
-  top: 15px;
+  font-size: 1.313rem;
+  top: 0.938rem;
 }
 
 .fb3 .fas {
-  font-size: 19px;
-  top: 17px;
+  font-size: 1.188rem;
+  top: 1.063rem;
 }
 
 .fb4 .fas {
-  font-size: 21px;
-  top: 15px;
+  font-size: 1.313rem;
+  top: 0.938rem;
 }
 
 /* info */
@@ -206,16 +206,16 @@ nav a:hover {
 #info_btn {
   display: flex;
   background-color: white;
-  border: 1px solid #f2f2f2;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
+  border: 0.063rem solid #f2f2f2;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
 }
 
 #info_btn .fas {
   margin: auto;
   color: #0065fc;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 #info_section p {
@@ -223,13 +223,14 @@ nav a:hover {
   font-weight: 400;
   padding: 0px;
   width: 100%;
-  margin: 0px 0px 0px 12px;
+  margin: 0px 0px 0px 0.75rem;
 }
 
-/* famous accommodations */
+/* accommodations */
 
-#accommodations {
+#accommodations_container {
   display: flex;
+  width: 100%;
 }
 
 #accommodations h1 {
@@ -237,8 +238,34 @@ nav a:hover {
   font-weight: 700;
 }
 
+.name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: black;
+  margin: 0px;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 0.89rem;
+  color: black;
+  margin: 0px;
+}
+
+.star_box {
+  width: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  color: #0065fc;
+  font-size: 0.7rem;
+  margin: 0px;
+}
+
+/* famous */
+
 #famous_container {
   background-color: #f2f2f2;
+  width: 100%;
 }
 
 #famous_title {
@@ -255,41 +282,53 @@ nav a:hover {
   font-size: 1.4rem;
 }
 
-#famous_card_container {
+#famous_cards_container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  margin: 0px;
 }
 
 .famous_card {
   display: block;
   text-decoration: none;
-  display: flex;
-  align-items: center;
+  display: inline-flex;
   background-color: white;
-  height: 144px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px rgb(209, 204, 204);
+  height: 8.375rem;
+  border: 0.313rem solid white;
+  border-radius: 1.25rem;
+  box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
   margin: auto;
 }
 
-.name {
-  font-weight: 700;
-  font-size: 1rem;
-  color: black;
+.famous_card .img {
+  width: 60%; 
 }
 
-.price {
-  font-weight: 400;
-  font-size: 0.89rem;
-  color: black;
+.famous_img {
+  width: 100%;
+  height: 8.375rem;
+  border-radius: 0.938rem 0px 0px 0.938rem;
+  object-fit: cover;
 }
 
-.star_box {
-  width: 70px;
+.famous_txt_box {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  color: #0065fc;
-  font-size: 0.7rem;
+  height: 8.375rem;
+  width: 100%;
+}
+
+.famous_txt_box .name_price {
+  margin: 0.7rem 2rem 0 1rem;
+}
+
+.famous_txt_box .price {
+  margin-top: 0.313rem;
+}
+
+.famous_txt_box .star_box {
+  margin: 0 0 0.6rem 1rem;
 }
 
 .fsb2 .fas:nth-child(5) {
@@ -300,57 +339,47 @@ nav a:hover {
   color: #e4e1e1;
 }
 
-.fi1 {
-  background: url(images/soleil-du-matin.jpg) no-repeat;
-}
-
-.fi2 {
-  background: url(images/coeur-de-l-eau.jpg) no-repeat;
-}
-
-.fi3 {
-  background: url(images/bleu-et-blanc.jpg) no-repeat;
-}
-
-/* accommodations */
+/* places */
 
 #places_container {
-  display: flex;
-  flex-direction: column;
-}
-
-#places_container h1 {
-  width: fit-content;
 }
 
 .places_card {
   display: block;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: auto;
   background-color: white;
-  padding-top: 5px;
   border-radius: 20px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
 }
 
+.places_card .img {
+  width: 100%;
+}
+
+.places_img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
 .places_txt_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 80px;
+  width: 100%;
 }
 
 .places_txt_box .name {
-  margin: 10px 0 0 10px;
+  margin: 0.6rem 0 0 0.7rem;
 }
 
 .places_txt_box .price {
-  margin: 6px 0 10px 10px;
+  margin: 0 0 0.3rem 0.7rem;
 }
 
 .places_txt_box .star_box {
-  margin-left: 9px;
+ margin: 0 0 0.7rem 0.7rem;
 }
 
 .psb1 .fas:nth-child(5) {
@@ -373,42 +402,13 @@ nav a:hover {
   color: #e4e1e1;
 }
 
-.places_img {
-  height: 115px;
-  border-radius: 15px 15px 0px 0px;
-}
-
-.pi1 {
-  background: url(images/auberge-la-cannebiere.jpg) no-repeat;
-}
-
-.pi2 {
-  background: url(images/hotel-du-port.jpg) no-repeat;
-}
-
-.pi3 {
-  background: url(images/hotel-les-mouettes.jpg) no-repeat;
-}
-
-.pi4 {
-  background: url(images/hotel-de-la-mer.jpg) no-repeat;
-}
-
-.pi5 {
-  background: url(images/auberge-le-panier.jpg) no-repeat;
-}
-
-.pi6 {
-  background: url(images/hotel-chez-amina.jpg) no-repeat;
-}
-
 #more {
   display: block;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
   font-weight: 700;
-  width: fit-content;
+  width: auto;
 }
 
 /* activities */
@@ -420,58 +420,40 @@ nav a:hover {
 #activities h1 {
   font-size: 1.4rem;
   font-weight: 700;
-  width: fit-content;
+  width: auto;
+  margin: 0 0 20px 0;
+}
+
+#activities_card_container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .activities_card {
-  display: block;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: auto;
   background-color: white;
   border-radius: 20px;
   box-shadow: 2px 2px 8px rgb(209, 204, 204);
 }
 
+.activities_card .img {
+  width: 100%;
+}
+
+.activities_img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
 .activities_txt_box {
   height: 55px;
+  width: 100%;
 }
 
 .activities_txt_box .name {
   margin-left: 15px;
-  margin-top: 20px;
-}
-
-.activities_img {
-  width: 335px;
-  height: 135px;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.ai1 {
-  background: url(images/vieux-port.jpg) no-repeat;
-}
-
-.ai2 {
-  background: url(images/fort-de-pomegues.jpg) no-repeat;
-}
-
-.ai3 {
-  background: url(images/iles-du-frioul.jpg) no-repeat;
-}
-
-.ai4 {
-  background: url(images/les-calanques.jpg) no-repeat;
-}
-
-.ai5 {
-  background: url(images/nd-de-la-garde.jpg) no-repeat;
-}
-
-.ai6 {
-  background: url(images/parc-longchamp.jpg) no-repeat;
+  margin-top: 15px;
 }
 
 /* Footer */
@@ -493,7 +475,7 @@ footer li {
   margin: 0 0 10px 0;
 }
 
-.footer_lst h2 {
+.footer_lst h3 {
   font-size: 1.1rem;
   font-weight: 700;
   width: fit-content;
