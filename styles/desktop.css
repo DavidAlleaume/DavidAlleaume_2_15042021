@@ -1,12 +1,10 @@
 body {
-  max-width: 90rem;
+  
 }
 
 header {
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0px;
-  padding: 0px;
 }
 
 #logo {
@@ -83,12 +81,10 @@ header a {
 
 #filters_section {
   margin: 1.563rem 0 1.875rem 3.938rem;
-  justify-content: flex-start;
   align-items: baseline;
 }
 
 #filters_section h1 {
-  width: fit-content;
   margin-right: 1.875rem;
 }
 
@@ -174,7 +170,7 @@ header a {
 .places_card {
   width: 31%;
   height: 11.813rem;
-  border: 5px solid white;
+  border: 0.313rem solid white;
   margin-bottom: 1.875rem;
 }
 
@@ -205,9 +201,6 @@ header a {
 }
 
 .small_cards_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 22.58%;
 }
 
@@ -303,10 +296,12 @@ footer {
   padding: 3.125rem 0 3.438rem 3.125rem;
 }
 
-.about {
-  margin-right: 14.063rem;
+#menu {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
 }
 
 .our_acco {
-  margin-right: 17.813rem;
+  padding-right: 60px 
 }

@@ -3,25 +3,19 @@ html {
 }
 
 body {
-  border: 1px solid black;
   width: 100%;
   min-width: 23.438rem;
+  max-width: 90rem;
   margin: 0px;
   padding: 0px;
   background-color: white;
-  font-weight: 400;
   font-family: "Raleway", arial, sans-serif;
   letter-spacing: -0.019rem;
 }
 
 header {
   display: flex;
-  font-size: 1.07rem;
-  width: 100%;
-}
-
-#logo {
-  width: fit-content;
+  font-size: 1.07rem; 
 }
 
 header ul {
@@ -67,8 +61,7 @@ nav a:hover {
 #search_section h1 {
   font-size: 1.45rem;
   font-weight: 700;
-  width: 100%;
-  padding: 0px;
+  padding-right: 0.313rem;
 }
 
 #search_section h1::first-letter {
@@ -86,7 +79,7 @@ nav a:hover {
   border: 0.063rem solid #f2f2f2;
   border-radius: 0.938rem;
   width: 20.875rem;
-  height: 49px;
+  height: 3.063rem;
   margin: 0px;
   padding: 0px;
 }
@@ -230,7 +223,6 @@ nav a:hover {
 
 #accommodations_container {
   display: flex;
-  width: 100%;
 }
 
 #accommodations h1 {
@@ -249,7 +241,6 @@ nav a:hover {
   font-weight: 400;
   font-size: 0.89rem;
   color: black;
-  margin: 0px;
 }
 
 .star_box {
@@ -258,14 +249,12 @@ nav a:hover {
   justify-content: space-between;
   color: #0065fc;
   font-size: 0.7rem;
-  margin: 0px;
 }
 
 /* famous */
 
 #famous_container {
   background-color: #f2f2f2;
-  width: 100%;
 }
 
 #famous_title {
@@ -341,24 +330,17 @@ nav a:hover {
 
 /* places */
 
-#places_container {
-}
-
 .places_card {
   display: block;
   text-decoration: none;
   background-color: white;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px rgb(209, 204, 204);
-}
-
-.places_card .img {
-  width: 100%;
+  border-radius: 1.25rem;
+  box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
 }
 
 .places_img {
   width: 100%;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 0.938rem 0.938rem 0px 0px;
   object-fit: cover;
 }
 
@@ -366,7 +348,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80px;
+  height: 5.5rem;
   width: 100%;
 }
 
@@ -379,7 +361,7 @@ nav a:hover {
 }
 
 .places_txt_box .star_box {
- margin: 0 0 0.7rem 0.7rem;
+ margin: 0 0 1.03rem 0.7rem;
 }
 
 .psb1 .fas:nth-child(5) {
@@ -415,64 +397,70 @@ nav a:hover {
 
 #activities {
   display: flex;
+  width: 100%;
+  margin: auto;
 }
 
 #activities h1 {
   font-size: 1.4rem;
   font-weight: 700;
   width: auto;
-  margin: 0 0 20px 0;
+  margin: 0 0 1.25rem 0;
 }
 
-#activities_card_container {
+#activities_cards_container {
   display: flex;
   justify-content: space-between;
 }
 
-.activities_card {
-  text-decoration: none;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px rgb(209, 204, 204);
+.small_cards_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.activities_card .img {
-  width: 100%;
+.activities_card {
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204)
 }
 
 .activities_img {
   width: 100%;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 1.25rem 1.25rem 0px 0px;
   object-fit: cover;
 }
 
 .activities_txt_box {
-  height: 55px;
+  height: 3.438rem;
   width: 100%;
 }
 
 .activities_txt_box .name {
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 0.938rem;
+  margin-top: 1.125rem;
 }
 
 /* Footer */
 
 footer {
-  display: flex;
   background-color: #f2f2f2;
-  padding: 0px;
+}
+
+#menu {
+  display: flex;
 }
 
 .footer_lst ul {
   list-style-type: none;
   width: fit-content;
   padding: 0px;
-  margin: 0px;
 }
 
 footer li {
-  margin: 0 0 10px 0;
+  margin: 0 0 0.625rem 0;
 }
 
 .footer_lst h3 {
