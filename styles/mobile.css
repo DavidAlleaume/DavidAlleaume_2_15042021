@@ -31,7 +31,10 @@ header a {
 /* search */
 
 #search_section {
-  margin: 0.625rem 0 0 1.25rem;
+  margin-top: 0.625rem;
+  width: 88.8%;
+  margin: auto;
+  margin-bottom: 2.188rem;
 }
 
 #search_section h1 {
@@ -68,7 +71,8 @@ header a {
 
 #filters_section {
   flex-direction: column;
-  margin: 1.875rem 0 0 1.25rem;
+  width: 88.8%;
+  margin: auto;
 }
 
 #filters_section h1 {
@@ -118,49 +122,33 @@ header a {
 
 #famous_container {
   padding-bottom: 1.563rem;
+  align-items: center;
 }
 
 #famous_title {
-  margin: 2.5rem 1.4rem 1.563rem 1.4rem;
+  width: 90%;
+  margin: 1.813rem 0 1.625rem 0;
  }
 
  .famous_card {
-  width: 89.06%;
+  width: 89.33%;
   margin-bottom: 0.688rem;
 }
 
 /* places */
 
-#places_cards_container {
-  width: 100%;
-}
-
 #places_container h1 {
-  margin: 2.5rem 0 1.125rem 1.4rem;
-}
-
-.places_card {
-  width: 89.06%;
-  height: 11.813rem;
-  border: 5px solid white;
-  margin: auto;
-  margin-bottom: 0.688rem;
-}
-
-.places_card .img {
-  height: 7.125rem;
-}
-
-.places_img {
-  height: 7.125rem;
-}
-
-.places_txt_box {
-  width: 89.06%;
+  width: 97.01%;
   margin: 0px;
 }
 
-
+.places_card {
+  width: 86.66%;
+  height: 11.813rem;
+  border: 0.313rem solid white;
+  margin: auto;
+  margin-bottom: 0.688rem;
+}
 
 /* activities */
 
@@ -199,7 +187,7 @@ header a {
 
 #menu {
   flex-direction: column;
-  margin-left: 1.25rem;
+  margin-left: 1.8rem;
 }
 
 .about {
