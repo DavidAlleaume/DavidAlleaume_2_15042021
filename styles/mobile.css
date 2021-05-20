@@ -155,6 +155,10 @@ header a {
 
 /* activities */
 
+#ac1, #ac2 {
+  flex-direction: column;
+}
+
 #activities {
   flex-direction: column;
   margin-bottom: 1.563rem;

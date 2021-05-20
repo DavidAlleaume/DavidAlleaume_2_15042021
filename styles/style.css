@@ -274,7 +274,6 @@ nav a:hover {
 #famous_cards_container {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .famous_card {
@@ -408,6 +407,10 @@ nav a:hover {
 }
 
 /* activities */
+
+#ac1, #ac2 {
+  display: flex;
+}
 
 #activities {
   display: flex;

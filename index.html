@@ -3,11 +3,15 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="/styles/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 680px)" href="/styles/mobile.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" href="/styles/desktop.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 739px)" href="/styles/mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 740px) and (max-width: 1030px)"
+        href="/styles/tablet.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1031px) and (max-width: 1204px)"
+        href="/styles/laptop.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1205px)" href="/styles/desktop.css" />
     <link rel="shortcut icon" href="images/logo/Reservia.svg" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -260,57 +264,62 @@
     <section id="activities">
         <h1 id="acti">Activités à Marseille</h1>
         <div id="activities_cards_container">
-            <a class="activities_card card1" href="">
-                <div class="img">
-                    <img class="activities_img ai1" src="/images/vieux-port.jpg" alt="le vieux port">
-                </div>
-                <div class="activities_txt_box">
-                    <h2 class="name">Vieux Port</h2>
-                </div>
-            </a>
-            <div class="small_cards_container">
-                <a class="activities_card card2" href="">
+            <div id="ac1">
+                <a class="activities_card card1" href="">
                     <div class="img">
-                        <img class="activities_img ai2" src="/images/pomegues.jpg" alt="fort de pomègues">
+                        <img class="activities_img ai1" src="/images/vieux-port.jpg" alt="le vieux port">
                     </div>
                     <div class="activities_txt_box">
-                        <h2 class="name">Fort de Pomègues</h2>
+                        <h2 class="name">Vieux Port</h2>
                     </div>
                 </a>
-                <a class="activities_card card3" href="">
-                    <div class="img">
-                        <img class="activities_img ai3" src="/images/frioul.jpg" alt="Îles du frioul">
-                    </div>
-                    <div class="activities_txt_box">
-                        <h2 class="name">Îles du Frioul</h2>
-                    </div>
-                </a>
+                <div class="small_cards_container">
+                    <a class="activities_card card2" href="">
+                        <div class="img">
+                            <img class="activities_img ai2" src="/images/pomegues.jpg" alt="fort de pomègues">
+                        </div>
+                        <div class="activities_txt_box">
+                            <h2 class="name">Fort de Pomègues</h2>
+                        </div>
+                    </a>
+                    <a class="activities_card card3" href="">
+                        <div class="img">
+                            <img class="activities_img ai3" src="/images/frioul.jpg" alt="Îles du frioul">
+                        </div>
+                        <div class="activities_txt_box">
+                            <h2 class="name">Îles du Frioul</h2>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <a class="activities_card card4" href="">
-                <div class="img">
-                    <img class="activities_img ai4" src="/images/calanques.jpg" alt="parc national des calanques">
-                </div>
-                <div class="activities_txt_box">
-                    <h2 class="name">Parc National des Calanques</h2>
-                </div>
-            </a>
-            <div class="small_cards_container">
-                <a class="activities_card card5" href="">
+            <div id="ac2">
+                <a class="activities_card card4" href="">
                     <div class="img">
-                        <img class="activities_img ai5" src="/images/nd-de-la-garde.jpg" alt="notre dame de la garde">
+                        <img class="activities_img ai4" src="/images/calanques.jpg" alt="parc national des calanques">
                     </div>
                     <div class="activities_txt_box">
-                        <h2 class="name">Notre-Dame-de-la-Garde</h2>
+                        <h2 class="name">Parc National des Calanques</h2>
                     </div>
                 </a>
-                <a class="activities_card card6" href="">
-                    <div class="img">
-                        <img class="activities_img ai6" src="/images/parc-logchamp.jpg" alt="parc logchamps">
-                    </div>
-                    <div class="activities_txt_box">
-                        <h2 class="name">Parc Longchamp</h2>
-                    </div>
-                </a>
+                <div class="small_cards_container">
+                    <a class="activities_card card5" href="">
+                        <div class="img">
+                            <img class="activities_img ai5" src="/images/nd-de-la-garde.jpg"
+                                alt="notre dame de la garde">
+                        </div>
+                        <div class="activities_txt_box">
+                            <h2 class="name">Notre-Dame-de-la-Garde</h2>
+                        </div>
+                    </a>
+                    <a class="activities_card card6" href="">
+                        <div class="img">
+                            <img class="activities_img ai6" src="/images/parc-logchamp.jpg" alt="parc logchamps">
+                        </div>
+                        <div class="activities_txt_box">
+                            <h2 class="name">Parc Longchamp</h2>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
