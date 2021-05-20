@@ -31,20 +31,20 @@ header a {
 /* search */
 
 #search_section {
-  margin-top: 0.625rem;
-  width: 88.8%;
-  margin: auto;
-  margin-bottom: 2.188rem;
+  margin: 0.625rem 0 2.188rem 0;
 }
 
 #search_section h1 {
-  margin: 0px;
+  margin: 0 0 0 1.25rem;
 }
 
 #search_section h2 {
-  margin: 0.625rem 0 1.875rem;
+  margin: 0.625rem 0 2.188rem 1.25rem;
 }
 
+#search_box {
+  margin-left: 1.25rem;
+}
 #search_btn1 {
   position: absolute;
   display: flex;
@@ -71,8 +71,7 @@ header a {
 
 #filters_section {
   flex-direction: column;
-  width: 88.8%;
-  margin: auto;
+  margin: 0 0 1.875rem 1.25rem;
 }
 
 #filters_section h1 {
@@ -109,7 +108,7 @@ header a {
 /* info */
 
 #info_section {
-  margin: 1.875rem 0 1.875rem 1.25rem;
+  margin: 0 0 2.5rem 1.25rem;
 }
 
 /* accommodations */
@@ -121,14 +120,15 @@ header a {
 /* famous */
 
 #famous_container {
-  padding-bottom: 1.563rem;
-  align-items: center;
+  padding-bottom: 2.188rem;
 }
 
 #famous_title {
-  width: 90%;
-  margin: 1.813rem 0 1.625rem 0;
+  margin: 2.5rem 0 1.25rem 1.25rem;
  }
+ #famous_title .fas {
+  margin-right: 1.25rem;
+}
 
  .famous_card {
   width: 89.33%;
@@ -138,10 +138,9 @@ header a {
 /* places */
 
 #places_container h1 {
-  width: 97.01%;
-  margin: 0px;
+  margin: 2.3rem 0 1.5rem 1.25rem;
 }
-
+  
 .places_card {
   width: 86.66%;
   height: 11.813rem;
@@ -150,10 +149,15 @@ header a {
   margin-bottom: 0.688rem;
 }
 
+#more {
+  margin: 1.125rem 0 0.625rem 1.25rem;
+}
+
 /* activities */
 
 #activities {
   flex-direction: column;
+  margin-bottom: 1.563rem;
 }
 
 #activities_cards_container {
@@ -161,7 +165,7 @@ header a {
 }
 
 #activities h1 {
-  margin: 40px 0 32px 20px;
+  margin: 2.5rem 0 1.875rem 1.25rem;
 }
 
 .activities_card {

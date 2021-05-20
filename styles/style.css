@@ -4,7 +4,7 @@ html {
 
 body {
   width: 100%;
-  min-width: 24.063rem;
+  min-width: 23.438rem;
   max-width: 90rem;
   margin: 0px;
   padding: 0px;
@@ -53,15 +53,9 @@ nav a:hover {
 
 /* search */
 
-#search_section {
-  display: flex;
-  flex-direction: column;
-}
-
 #search_section h1 {
   font-size: 1.45rem;
   font-weight: 700;
-  padding-right: 0.313rem;
 }
 
 #search_section h1::first-letter {
@@ -124,7 +118,6 @@ nav a:hover {
 #filters_section h1 {
   font-size: 1.1rem;
   font-weight: 700;
-  margin: 0px;
 }
 
 #filters_container {
@@ -132,8 +125,6 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 
 .filter_box {
@@ -342,7 +333,6 @@ nav a:hover {
 /* places */
 
 #places_container {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -352,7 +342,6 @@ nav a:hover {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: white;
   height: 12.438rem;
   border-radius: 1.25rem;
@@ -371,6 +360,7 @@ nav a:hover {
 }
 
 .places_txt_box {
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -378,15 +368,15 @@ nav a:hover {
 }
 
 .places_txt_box .name {
-  margin: 0.6rem 0 0 0.7rem;
+  margin: 0.75rem 0 0.3rem 0.625rem;
 }
 
 .places_txt_box .price {
-  margin: 0 0 0.3rem 0.7rem;
+  margin: 0 0 0.3rem 0.625rem;
 }
 
 .places_txt_box .star_box {
- margin: 0 0 1.03rem 0.7rem;
+ margin: 0 0 0.688rem 0.625rem;
 }
 
 .psb1 .fas:nth-child(5) {
@@ -415,7 +405,6 @@ nav a:hover {
   color: black;
   font-size: 1.1rem;
   font-weight: 700;
-  width: auto;
 }
 
 /* activities */
