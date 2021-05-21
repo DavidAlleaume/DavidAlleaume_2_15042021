@@ -159,22 +159,22 @@ nav a:hover {
   text-align: center;
 }
 
-.fb1 .fas {
+.filter_box_1 .fas {
   font-size: 1.125rem;
   top: 0.938rem;
 }
 
-.fb2 .fas {
+.filter_box_2 .fas {
   font-size: 1.313rem;
   top: 0.938rem;
 }
 
-.fb3 .fas {
+.filter_box_3 .fas {
   font-size: 1.188rem;
   top: 1.063rem;
 }
 
-.fb4 .fas {
+.filter_box_4 .fas {
   font-size: 1.313rem;
   top: 0.938rem;
 }
@@ -232,7 +232,7 @@ nav a:hover {
   color: black;
 }
 
-.star_box {
+.stars_box {
   width: 4.2rem;
   display: flex;
   justify-content: space-between;
@@ -242,11 +242,11 @@ nav a:hover {
 
 /* famous */
 
-#famous_acco {
+#famous_accommodations {
   background-color: #f2f2f2;
 }
 
-#famous_container {
+#famous_accommodations_container {
   display: flex;
   flex-direction: column;
 } 
@@ -313,15 +313,15 @@ nav a:hover {
   margin-top: 0.313rem;
 }
 
-.famous_txt_box .star_box {
+.famous_txt_box .stars_box {
   margin: 0 0 0.6rem 1rem;
 }
 
-.fsb2 .fas:nth-child(5) {
+.famous_stars_box_2 .fas:nth-child(5) {
   color: #e4e1e1;
 }
 
-.fsb3 .fas:nth-child(5) {
+.famous_stars_box_3 .fas:nth-child(5) {
   color: #e4e1e1;
 }
 
@@ -370,27 +370,27 @@ nav a:hover {
   margin: 0 0 0.3rem 0.625rem;
 }
 
-.places_txt_box .star_box {
+.places_txt_box .stars_box {
  margin: 0 0 0.688rem 0.625rem;
 }
 
-.psb1 .fas:nth-child(5) {
+.places_stars_box_1 .fas:nth-child(5) {
   color: #e4e1e1;
 }
 
-.psb3 .fas:nth-child(5) {
+.places_stars_box_3 .fas:nth-child(5) {
   color: #e4e1e1;
 }
 
-.psb4 .fas:nth-child(4) {
+.places_stars_box_4 .fas:nth-child(4) {
   color: #e4e1e1;
 }
 
-.psb4 .fas:nth-child(5) {
+.places_stars_box_4 .fas:nth-child(5) {
   color: #e4e1e1;
 }
 
-.psb5 .fas:nth-child(5) {
+.places_stars_box_5 .fas:nth-child(5) {
   color: #e4e1e1;
 }
 
@@ -404,16 +404,12 @@ nav a:hover {
 
 /* activities */
 
-#ac1, #ac2 {
-  display: flex;
-}
-
-#activities {
+#activities_container {
   display: flex;
   margin: auto;
 }
 
-#activities h1 {
+#activities_container h1 {
   font-size: 1.4rem;
   font-weight: 700;
   width: auto;
@@ -423,6 +419,10 @@ nav a:hover {
 #activities_cards_container {
   display: flex;
   justify-content: space-between;
+}
+
+#activities_cards_container_1, #activities_cards_container_2 {
+  display: flex;
 }
 
 .small_cards_container {
@@ -464,7 +464,7 @@ footer {
   display: flex;
 }
 
-.footer_lst ul {
+.footer_list ul {
   list-style-type: none;
   width: fit-content;
   padding: 0;
@@ -474,7 +474,7 @@ footer li {
   margin: 0 0 0.625rem 0;
 }
 
-.footer_lst h3 {
+.footer_list h3 {
   font-size: 1.1rem;
   font-weight: 700;
   width: fit-content;

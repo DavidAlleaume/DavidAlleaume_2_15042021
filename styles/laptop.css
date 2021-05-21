@@ -94,21 +94,21 @@ header a {
   margin-right: 1.5rem;
 }
   
-.fb1 {
+.filter_box_1 {
   width: 11.875rem;
 }
   
-.fb2 {
+.filter_box_2 {
    width: 9.25rem;
 }
   
-.fb3 {
+.filter_box_3 {
   width: 11.25rem;
 }
   
-  .fb4 {
-    width: 14.875rem;
-  }
+.filter_box_4 {
+  width: 14.875rem;
+}
   
 /* info */
   
@@ -126,7 +126,7 @@ header a {
   
 /* famous */
   
-#famous_acco {
+#famous_accommodations {
   width: 40%;
   height: 53.125rem;
   border-radius: 1.25rem;
@@ -166,7 +166,7 @@ header a {
   margin-top: 1rem;
 }
   
-.famous_txt_box .star_box {
+.famous_txt_box .stars_box {
   margin: 0 0 0.6rem 1rem;
 }
 
@@ -203,7 +203,7 @@ header a {
   
 /* activities */
 
-#activities {
+#activities_container {
   flex-direction: column;
   width: 92.84%;
   margin: auto;
@@ -215,7 +215,7 @@ header a {
   margin: auto;
 }
   
-#ac1, #ac2 {
+#activities_cards_container_1, #activities_cards_container_2 {
   flex-direction: column;
   width: 48%;
   justify-content: space-between;

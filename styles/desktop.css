@@ -94,19 +94,19 @@ header a {
   margin-right: 1.5rem;
 }
 
-.fb1 {
+.filter_box_1 {
   width: 11.875rem;
 }
 
-.fb2 {
+.filter_box_2 {
   width: 9.25rem;
 }
 
-.fb3 {
+.filter_box_3 {
   width: 11.25rem;
 }
 
-.fb4 {
+.filter_box_4 {
   width: 14.875rem;
 }
 
@@ -126,7 +126,7 @@ header a {
 
 /* famous */
 
-#famous_acco {
+#famous_accommodations {
   width: 29.1%;
   border-radius: 1.25rem;
   margin-left: 2%;
@@ -174,16 +174,20 @@ header a {
 
 /* activities */
 
-#activities {
+#activities_container {
   flex-direction: column;
   width: 92.84%;
   margin: auto;
   margin-bottom: 3rem;
 }
 
-#ac1, #ac2 {
+#activities_cards_container_1, #activities_cards_container_2 {
   width: 48.5%;
   justify-content: space-between;
+}
+
+.small_cards_container {
+  width: 45.16%;
 }
 
 .activities_card {
@@ -191,92 +195,88 @@ header a {
   margin: 0;
 }
 
-.small_cards_container {
-  width: 45.16%;
-}
-
 .small_cards_container .activities_card {
   width: 100%;
 }
 
-.card1,
-.card4 {
+.activities_card_1,
+.activities_card_4 {
   height: 27.75rem;
 }
 
-.card2 {
+.activities_card_2 {
   height: 14.75rem;
 }
 
-.card3 {
+.activities_card_3 {
   height: 10.25rem;
 }
 
-.card5 {
+.activities_card_5 {
   height: 12.125rem;
 }
 
-.card6 {
+.activities_card_6 {
   height: 13.125rem;
 }
 
-.card1 .img {
+.activities_card_1 .img {
   height: 24.313rem;
 }
 
-.card1 .ai1 {
+.activities_card_1 .activities_img_1 {
   height: 24.313rem;
 }
 
-.card2 .img {
+.activities_card_2 .img {
   height: 11.313rem;
 }
 
-.card2 .ai2 {
+.activities_card_2 .activities_img_2 {
   height: 11.313rem;
 }
 
-.card3 .img {
+.activities_card_3 .img {
   height: 6.813rem;
 }
 
-.card3 .ai3 {
+.activities_card_3 .activities_img_3 {
   height: 6.813rem;
 }
 
-.card4 .img {
+.activities_card_4 .img {
   height: 24.313rem;
 }
 
-.card4 .ai4 {
+.activities_card_4 .activities_img_4 {
   height: 24.313rem;
 }
 
-.card5 .img {
+.activities_card_5 .img {
   height: 8.688rem;
 }
 
-.card5 .ai5 {
+.activities_card_5 .activities_img_5 {
   height: 8.688rem;
 }
 
-.card6 .img {
+.activities_card_6 .img {
   height: 9.688rem;
 }
 
-.card6 .ai6 {
+.activities_card_6 .activities_img_6 {
   height: 9.688rem;
 }
 
-.ai1 {
+.activities_img_1 {
   object-position: 50% 30%;
 }
 
-.ai3,.ai5,.ai6 {
+.activities_img_3,.activities_img_5,.activities_img_6 {
   object-position: 50% 10%;
 }
 
-.ai2 {
+.activities_img_2 {
   object-position: 50% 35%;
 }
 

@@ -110,19 +110,19 @@ header a {
   margin: 0 0.688rem 0.813rem 0;
 }
   
-.fb1 {
+.filter_box_1 {
   width: 10.813rem;
 }
   
-.fb2 {
+.filter_box_2 {
  width: 8.5rem;
 }
   
-.fb3 {
+.filter_box_3 {
   width: 10.373rem;
 }
   
-.fb4 {
+.filter_box_4 {
   width: 13.5rem;
    margin-bottom: 0;
 }
@@ -143,7 +143,7 @@ header a {
 
 /* famous */
 
-#famous_acco {
+#famous_accommodations {
 height: 21.857rem;
 margin: auto;
 margin-bottom: 2.5rem;
@@ -221,12 +221,12 @@ margin-bottom: 2.5rem;
   
   /* activities */
 
-#activities {
+#activities_container {
   flex-direction: column;
   margin-bottom: 3rem;
 }
 
-#activities h1 {
+#activities_container h1 {
   margin-left: 1.25rem;
 }
 
@@ -235,12 +235,12 @@ margin-bottom: 2.5rem;
   margin: auto;
 }
 
-#ac1, #ac2 {
+#activities_cards_container_1, #activities_cards_container_2 {
   flex-direction: column;
   width: 48%;
   justify-content: space-between;
 }
-  
+
 .activities_card {
   height: 14.75rem;
   margin: 0;
