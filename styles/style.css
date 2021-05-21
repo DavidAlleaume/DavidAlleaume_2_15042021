@@ -6,8 +6,8 @@ body {
   width: 100%;
   min-width: 23.438rem;
   max-width: 90rem;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: white;
   font-family: "Raleway", arial, sans-serif;
   letter-spacing: -0.019rem;
@@ -22,7 +22,7 @@ header ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 header a {
@@ -74,8 +74,8 @@ nav a:hover {
   border-radius: 0.938rem;
   width: 20.875rem;
   height: 3.063rem;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #map_btn {
@@ -124,7 +124,6 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 100%;
 }
 
 .filter_box {
@@ -205,16 +204,14 @@ nav a:hover {
 #info_section p {
   font-size: 1.07rem;
   font-weight: 400;
-  padding: 0px;
-  width: 100%;
-  margin: 0px 0px 0px 0.75rem;
+  padding: 0;
+  margin: 0 0 0 0.75rem;
 }
 
 /* accommodations */
 
 #accommodations_container {
   display: flex;
-  width: 100%;
 }
 
 #accommodations h1 {
@@ -226,7 +223,7 @@ nav a:hover {
   font-weight: 700;
   font-size: 1rem;
   color: black;
-  margin: 0px;
+  margin: 0;
 }
 
 .price {
@@ -247,7 +244,6 @@ nav a:hover {
 
 #famous_acco {
   background-color: #f2f2f2;
-  width: 100%;
 }
 
 #famous_container {
@@ -259,12 +255,12 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #famous_title h1 {
-  margin: 0px;
+  margin: 0;
 }
 
 #famous_title .fas {
@@ -414,7 +410,6 @@ nav a:hover {
 
 #activities {
   display: flex;
-  width: 100%;
   margin: auto;
 }
 
@@ -446,13 +441,12 @@ nav a:hover {
 
 .activities_img {
   width: 100%;
-  border-radius: 1.25rem 1.25rem 0px 0px;
+  border-radius: 1.25rem 1.25rem 0 0;
   object-fit: cover;
 }
 
 .activities_txt_box {
   height: 3.438rem;
-  width: 100%;
 }
 
 .activities_txt_box .name {
@@ -473,7 +467,7 @@ footer {
 .footer_lst ul {
   list-style-type: none;
   width: fit-content;
-  padding: 0px;
+  padding: 0;
 }
 
 footer li {

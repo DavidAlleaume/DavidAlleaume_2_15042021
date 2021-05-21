@@ -4,12 +4,12 @@ header {
 }
 
 #logo {
-  margin: 2.813rem 0px 1.563rem 3.125rem;
+  margin: 2.813rem 0 1.563rem 3.125rem;
 }
 
 header nav {
   position: relative;
-  padding: 0px;
+  padding: 0;
   margin-right: 1.25rem;
   width: 30rem;
 }
@@ -51,7 +51,7 @@ header a {
 
 #search_section h2 {
   margin: 0.625rem 0 0.938rem;
-  padding: 0px;
+  padding: 0;
 }
 
 #search_btn2 {
@@ -188,7 +188,7 @@ header a {
 
 .activities_card {
   width: 48%;
-  margin: 0px;
+  margin: 0;
 }
 
 .small_cards_container {

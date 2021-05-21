@@ -75,7 +75,7 @@ header a {
 }
 
 #filters_section h1 {
-  margin: 0px 0 0.75rem;
+  margin: 0 0 0.75rem;
 }
 
 .filter_box h2 {
@@ -85,7 +85,7 @@ header a {
 }
 
 .filter_box {
-  margin: 0px 0.688rem 0.813rem 0px;
+  margin: 0 0.688rem 0.813rem 0;
 }
 
 .fb1 {
@@ -102,7 +102,7 @@ header a {
 
 .fb4 {
   width: 13.5rem;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 /* info */
@@ -125,7 +125,8 @@ header a {
 
 #famous_title {
   margin: 2.5rem 0 1.25rem 1.25rem;
- }
+}
+
  #famous_title .fas {
   margin-right: 1.25rem;
 }
@@ -199,13 +200,13 @@ header a {
 }
 
 .about {
-  margin-top: 45px;
+  margin-top: 2.813rem;
 }
 
 .our_acco {
-  margin-top: 25px;
+  margin-top: 1.563rem;
 }
 
 .help {
-  margin: 40px 0 40px 0px;
+  margin: 2.5rem 0 2.5rem 0;
 }
