@@ -23,12 +23,12 @@ header a {
   padding-top: 2.813rem;
 }
   
-#acco_link {
+#accommodations_link {
   top: 0;
   width: 10rem;
 }
   
-#acti_link {
+#activities_link {
   top: 0;
   width: 10rem;
 }
@@ -44,7 +44,7 @@ header a {
 #search_section {
   margin: 0.625rem 0 2.188rem 0;
 }
-  
+ 
 #search_section h1 {
   margin: 0 0 0 1.25rem;
 }
@@ -68,8 +68,7 @@ header a {
   border-radius: 0.938rem;
   border: none;
 }
-  
-  
+   
 #search_btn2 {
   position: absolute;
   left: 18.125rem;
@@ -126,8 +125,7 @@ header a {
   width: 13.5rem;
    margin-bottom: 0;
 }
-  
-  
+   
 /* info */
   
 #info_section {
@@ -197,7 +195,7 @@ margin-bottom: 2.5rem;
 /* places */
 
 #places_container h1 {
-  margin: 2.875rem 0 1.563rem 1.25rem;
+  margin: 1rem 0 1.563rem 1.25rem;
 }
 
 #places_cards_container {
@@ -266,6 +264,3 @@ footer {
   justify-content: space-between;
   width: 39rem;
 }
-
-  
-  

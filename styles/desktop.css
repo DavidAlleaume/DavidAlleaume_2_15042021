@@ -23,12 +23,12 @@ header a {
   padding-top: 2.813rem;
 }
 
-#acco_link {
+#accommodations_link {
   top: 0;
   width: 10rem;
 }
 
-#acti_link {
+#activities_link {
   top: 0;
   width: 10rem;
 }
@@ -268,10 +268,6 @@ header a {
   height: 9.688rem;
 }
 
-.activities_img_1 {
-  object-position: 50% 30%;
-}
-
 .activities_img_3,.activities_img_5,.activities_img_6 {
   object-position: 50% 10%;
 }
@@ -279,7 +275,6 @@ header a {
 .activities_img_2 {
   object-position: 50% 35%;
 }
-
 
 /* Footer */
 
@@ -291,4 +286,158 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 75%;
+}
+
+@media screen and (min-width:1025px) and (max-width:1225px) {
+  #famous_accommodations {
+    width: 40%;
+    height: 53.125rem;
+    border-radius: 1.25rem;
+    margin-left: 2.7%;
+  }
+  
+  #famous_title {
+   margin: 2.875rem 2rem 1.563rem 2rem;
+  }
+  
+  .famous_card {
+    width: 82.1%;
+    height: 12.438rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .famous_card .img {
+    height: 11.813rem;
+  }
+    
+  .famous_img {
+    height: 11.813rem;
+  }
+
+  .famous_txt_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 11.813rem;
+  }
+
+  .famous_txt_box .name_price {
+    margin: 1rem 2rem 0 1rem;
+  }
+   
+  .famous_txt_box .price {
+    margin-top: 1rem;
+  }
+   
+  .famous_txt_box .stars_box {
+    margin: 0 0 0.6rem 1rem;
+  }
+  
+  #places_container {
+    width: 50%;
+  }
+  
+  .places_card {
+    width: 46%;
+  }
+
+  #activities_container {
+    margin-bottom: 2rem;
+  }
+
+  #activities_cards_container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  #activities_cards_container_1, #activities_cards_container_2 {
+    flex-direction: column;
+    width: 48.5%;
+    justify-content: space-between;
+  }
+  
+  .small_cards_container {
+    width: 100%;
+  }
+  
+  .activities_card {
+    width: 100%;
+    margin-bottom: 1.875rem;
+  }
+  
+  .activities_card_1, .activities_card_4 {
+    height: 14.75rem;
+  }
+
+  .activities_card_2 {
+    height: 14.75rem;
+  }
+
+  .activities_card_3 {
+    height: 14.75rem;
+  }
+
+  .activities_card_5 {
+    height: 14.75rem;
+  }
+
+  .activities_card_6 {
+    height: 14.75rem;
+  }
+
+  .activities_card_1 .img {
+    height: 11.313rem;
+  }
+
+  .activities_card_1 .activities_img_1 {
+    height: 11.313rem;
+  }
+
+  .activities_card_2 .img {
+    height: 11.313rem;
+  }
+
+  .activities_card_2 .activities_img_2 {
+    height: 11.313rem;
+  }
+
+  .activities_card_3 .img {
+    height: 11.313rem;
+  }
+
+  .activities_card_3 .activities_img_3 {
+      height: 11.313rem;
+  }
+
+  .activities_card_4 .img {
+    height: 11.313rem;
+  }
+
+  .activities_card_4 .activities_img_4 {
+    height: 11.313rem;
+  }
+
+  .activities_card_5 .img {
+    height: 11.313rem;
+  }
+
+  .activities_card_5 .activities_img_5 {
+    height: 11.313rem;
+  }
+
+  .activities_card_6 .img {
+    height: 11.313rem;
+  }
+
+  .activities_card_6 .activities_img_6 {
+    height: 11.313rem;
+  }
+
+  .activities_img_3,.activities_img_5,.activities_img_6 {
+    object-position: center;
+  }
+
+  .activities_img_2 {
+    object-position: center;
+  }
 }
