@@ -1,3 +1,19 @@
+/*  Sommaire
+
+      * header
+      * search
+      * filters
+      * info
+      * accommodations
+      * famous
+      * places
+      * activities
+      * footer
+
+*/
+
+/* header */
+
 html {
   font-size: 16px;
 }
@@ -14,13 +30,19 @@ body {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 1.07rem; 
 }
 
 header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style-type: none;
   padding: 0;
 }
@@ -69,6 +91,8 @@ nav a:hover {
 
 #search_box {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border: 0.063rem solid #f2f2f2;
   border-radius: 0.938rem;
@@ -80,6 +104,8 @@ nav a:hover {
 
 #map_btn {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #f2f2f2;
   border-radius: 0.938rem 0px 0px 0.938rem;
@@ -108,11 +134,15 @@ nav a:hover {
   padding-left: 0.938rem;
 }
 
-/* Filtres */
+/* filters */
 
 #filters_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 #filters_section h1 {
@@ -121,15 +151,24 @@ nav a:hover {
 }
 
 #filters_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .filter_box {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 0.125rem solid #f2f2f2;
   border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
   height: 2.875rem;
@@ -137,6 +176,8 @@ nav a:hover {
 
 .filter_btn {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   display: block;
   background-color: #deebff;
@@ -182,11 +223,17 @@ nav a:hover {
 /* info */
 
 #info_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 #info_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: white;
   border: 0.063rem solid #f2f2f2;
@@ -211,6 +258,8 @@ nav a:hover {
 /* accommodations */
 
 #accommodations_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -234,8 +283,12 @@ nav a:hover {
 
 .stars_box {
   width: 4.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #0065fc;
   font-size: 0.7rem;
 }
@@ -247,14 +300,25 @@ nav a:hover {
 }
 
 #famous_accommodations_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 } 
 
 #famous_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin: 0;
   padding: 0;
 }
@@ -268,20 +332,30 @@ nav a:hover {
 }
 
 #famous_cards_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .famous_card {
   display: block;
   text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   background-color: white;
   height: 9rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
   border-radius: 1.25rem;
-  box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
+  -webkit-box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
+          box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
 }
 
 .famous_card .img {
@@ -294,13 +368,21 @@ nav a:hover {
   width: 100%;
   height: 8.375rem;
   border-radius: 0.938rem 0px 0px 0.938rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .famous_txt_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 8.375rem;
   width: 100%;
 }
@@ -328,19 +410,30 @@ nav a:hover {
 /* places */
 
 #places_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .places_card {
   display: block;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: white;
   height: 12.438rem;
   border-radius: 1.25rem;
-  box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
+  -webkit-box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
+          box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
 }
 
 .places_card .img {
@@ -350,15 +443,25 @@ nav a:hover {
 .places_img {
   height: 7.125rem;
   border-radius: 0.938rem 0.938rem 0px 0px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 
 .places_txt_box {
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 4.688rem;
 }
 
@@ -405,6 +508,8 @@ nav a:hover {
 /* activities */
 
 #activities_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
 }
@@ -417,18 +522,31 @@ nav a:hover {
 }
 
 #activities_cards_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #activities_cards_container_1, #activities_cards_container_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .small_cards_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .activities_card {
@@ -436,13 +554,15 @@ nav a:hover {
   text-decoration: none;
   background-color: white;
   border-radius: 1.25rem;
-  box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204)
+  -webkit-box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204);
+          box-shadow: 0.125rem 0.125rem 0.5rem rgb(209, 204, 204)
 }
 
 .activities_img {
   width: 100%;
   border-radius: 1.25rem 1.25rem 0 0;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .activities_txt_box {
@@ -454,18 +574,22 @@ nav a:hover {
   padding-top: 1.125rem;
 }
 
-/* Footer */
+/* footer */
 
 footer {
   background-color: #f2f2f2;
 }
 
 #menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .footer_list ul {
   list-style-type: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 0;
 }
@@ -477,11 +601,15 @@ footer li {
 .footer_list h3 {
   font-size: 1.1rem;
   font-weight: 700;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 0 20px 0;
 }
 
 footer a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   text-decoration: none;
   color: black;

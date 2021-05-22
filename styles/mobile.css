@@ -1,9 +1,27 @@
-#logo {
-  margin: 1.563rem 0 1.563rem 1.25rem;
-}
+/*  Sommaire
+
+      * header
+      * search
+      * filters
+      * info
+      * accommodations
+      * famous
+      * places
+      * activities
+      * footer
+      * @media
+
+*/
 
 header {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#logo {
+  margin: 1.563rem 0 1.563rem 1.25rem;
 }
 
 header ul {
@@ -48,6 +66,8 @@ header a {
 
 #search_btn1 {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   left: 17.688rem;
   bottom: -0.063rem;
@@ -68,10 +88,13 @@ header a {
   display: none;
 }
 
-/* Filtres */
+/* filters */
 
 #filters_section {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0 0 1.875rem 1.25rem;
 }
 
@@ -115,7 +138,10 @@ header a {
 /* accommodations */
 
 #accommodations_container {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* famous */
@@ -158,7 +184,10 @@ header a {
 /* activities */
 
 #activities_container {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 1.563rem;
 }
 
@@ -167,11 +196,17 @@ header a {
 }
 
 #activities_cards_container {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #activities_cards_container_1, #activities_cards_container_2 {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .activities_card {
@@ -193,10 +228,13 @@ header a {
   width: 89.06%;
 }
 
-/* Footer */
+/* footer */
 
 #menu {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 1.8rem;
 }
 
@@ -219,9 +257,14 @@ header a {
   }
 
   #places_cards_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 90%;
     margin: auto;
   }
@@ -234,16 +277,26 @@ header a {
   }
 
   #activities_cards_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     width: 85%;
     margin: auto;
   }
   
   #activities_cards_container_1, #activities_cards_container_2 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 48%;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   
   .activities_card {

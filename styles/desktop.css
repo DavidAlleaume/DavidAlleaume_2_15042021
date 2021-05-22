@@ -1,6 +1,27 @@
+/*  Sommaire
+
+      * header
+      * search
+      * filters
+      * info
+      * accommodations
+      * famous
+      * places
+      * activities
+      * footer
+      * @media
+
+*/
+
+/* header */
+
 header {
-  justify-content: space-between;
-  align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 #logo {
@@ -73,11 +94,13 @@ header a {
   display: none;
 }
 
-/* Filtres */
+/* filters */
 
 #filters_section {
   margin: 1.563rem 0 1.875rem 3.938rem;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 #filters_section h1 {
@@ -119,8 +142,13 @@ header a {
 /* accommodations */
 
 #accommodations_container {
-  flex-direction: row-reverse;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 3rem;
 }
 
@@ -154,9 +182,14 @@ header a {
 }
 
 #places_cards_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-left: 4%;
   margin-right: 4%;
 }
@@ -175,7 +208,10 @@ header a {
 /* activities */
 
 #activities_container {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 92.84%;
   margin: auto;
   margin-bottom: 3rem;
@@ -183,7 +219,9 @@ header a {
 
 #activities_cards_container_1, #activities_cards_container_2 {
   width: 48.5%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .small_cards_container {
@@ -269,22 +307,28 @@ header a {
 }
 
 .activities_img_3,.activities_img_5,.activities_img_6 {
-  object-position: 50% 10%;
+  -o-object-position: 50% 10%;
+     object-position: 50% 10%;
 }
 
 .activities_img_2 {
-  object-position: 50% 35%;
+  -o-object-position: 50% 35%;
+     object-position: 50% 35%;
 }
 
-/* Footer */
+/* footer */
 
 footer {
   padding: 3.125rem 0 3.438rem 3.125rem;
 }
 
 #menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 75%;
 }
 
@@ -315,9 +359,16 @@ footer {
   }
 
   .famous_txt_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 11.813rem;
   }
 
@@ -351,9 +402,14 @@ footer {
   }
   
   #activities_cards_container_1, #activities_cards_container_2 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 48.5%;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   
   .small_cards_container {
@@ -434,10 +490,12 @@ footer {
   }
 
   .activities_img_3,.activities_img_5,.activities_img_6 {
-    object-position: center;
+    -o-object-position: center;
+       object-position: center;
   }
 
   .activities_img_2 {
-    object-position: center;
+    -o-object-position: center;
+       object-position: center;
   }
 }
