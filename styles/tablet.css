@@ -307,3 +307,26 @@ margin-bottom: 2.5rem;
 .activities_img {
   height: 11.313rem;
 }
+
+/* footer */
+  
+footer {
+  padding: 3.125rem 0 3.438rem 3.125rem;
+}
+  
+#menu {
+  display: flex;
+  justify-content: space-between;
+  width: 39rem;
+}
+/* Footer */
+  
+footer {
+  padding: 3.125rem 0 3.438rem 3.125rem;
+}
+  
+#menu {
+  display: flex;
+  justify-content: space-between;
+  width: 39rem;
+}
