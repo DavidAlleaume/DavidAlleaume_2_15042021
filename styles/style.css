@@ -30,7 +30,6 @@ body {
 }
 
 header {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,10 +74,6 @@ nav a:hover {
 }
 
 /* search */
-
-#search_section {
-  width: 100%;
-}
 
 #search_section h1 {
   font-size: 1.45rem;
@@ -142,7 +137,6 @@ nav a:hover {
 /* filters */
 
 #filters_section {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,7 +223,6 @@ nav a:hover {
 /* info */
 
 #info_section {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,7 +258,6 @@ nav a:hover {
 /* accommodations */
 
 #accommodations_container {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
