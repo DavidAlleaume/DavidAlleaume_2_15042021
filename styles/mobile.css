@@ -146,7 +146,12 @@ header a {
 
 /* famous */
 
+#famous_accommodations {
+  width: 100%;
+}
+
 #famous_accommodations_container {
+  width: 100%;
   padding-bottom: 2.188rem;
 }
 
@@ -164,6 +169,10 @@ header a {
 }
 
 /* places */
+
+#places_container {
+  width: 100%;
+}
 
 #places_container h1 {
   margin: 2.3rem 0 1.5rem 1.25rem;
@@ -184,6 +193,7 @@ header a {
 /* activities */
 
 #activities_container {
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -229,6 +239,10 @@ header a {
 }
 
 /* footer */
+
+footer {
+  width: 100%;
+}
 
 #menu {
   -webkit-box-orient: vertical;
