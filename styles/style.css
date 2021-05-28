@@ -22,7 +22,6 @@ html {
 }
 
 body {
-  max-width: 90rem;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -92,26 +91,29 @@ nav a:hover {
 }
 
 #search_box {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  align-items: center;
   border: 0.063rem solid #f2f2f2;
   border-radius: 0.938rem;
-  width: 20.875rem;
+  width: 88.8%;
+  max-width: 20.875rem;
   height: 3.063rem;
   margin: 0;
   padding: 0;
 }
 
+#search_form {
+  width: 84.38%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #map_btn {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #f2f2f2;
   border-radius: 0.938rem 0px 0px 0.938rem;
-  width: 3.188rem;
+  width: 15.61%;
   height: 3.188rem;
   right: 17.75rem;
   bottom: -0.063rem;
@@ -123,17 +125,16 @@ nav a:hover {
 }
 
 #search_txt {
-  position: absolute;
+  border: none;
   font-family: "Raleway", arial, sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
-  border: none;
   outline: none;
-  width: 18.875rem;
+  width: 70%;
   height: 1.25rem;
   top: 0.813rem;
   left: 3.125rem;
-  padding-left: 0.938rem;
+  padding-left: 7.39%;
 }
 
 /* filters */
@@ -164,6 +165,9 @@ nav a:hover {
 }
 
 .filter_box {
+  
+  display: block;
+  text-decoration: none;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,6 +176,7 @@ nav a:hover {
       -ms-flex-align: center;
           align-items: center;
   border: 0.125rem solid #f2f2f2;
+  color: black;
   border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
   height: 2.875rem;
 }
@@ -189,10 +194,9 @@ nav a:hover {
   left: -0.188rem;
 }
 
-.filter_btn:hover {
-  width: 3.313rem;
-  height: 3.313rem;
-  border: 0.188rem solid #f2f2f2;
+.filter_box:hover {
+  background-color: #deebff;
+  border: 0.125rem solid #deebff;
 }
 
 .filter_btn .fas {

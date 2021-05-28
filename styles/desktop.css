@@ -75,11 +75,25 @@ header a {
   padding: 0;
 }
 
+#search_box {
+  width: 26.25rem;
+  max-width: 26.25rem;
+}
+
+#map_btn {
+  width: 3.188rem;
+}
+
+#search_form {
+  width: 23rem;
+}
+
+#search_txt {
+  width: 14.375rem;
+}
+
 #search_btn2 {
-  position: absolute;
-  left: 18.125rem;
-  bottom: -0.063rem;
-  width: 8.75rem;
+  width: 8.375rem;
   height: 3.188rem;
   background-color: #0065fc;
   border-radius: 0 0.938rem 0.938rem 0;

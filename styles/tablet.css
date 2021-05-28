@@ -74,28 +74,25 @@ header a {
 }
   
 #search_box {
+  width: 26.25rem;
+  max-width: 26.25rem;
   margin-left: 1.25rem;
 }
 
-#search_btn1 {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  left: 17.688rem;
-  bottom: -0.063rem;
+#map_btn {
   width: 3.188rem;
-  height: 3.188rem;
-  background-color: #0065fc;
-  border-radius: 0.938rem;
-  border: none;
 }
-   
+
+#search_form {
+  width: 23rem;
+}
+
+#search_txt {
+  width: 14.375rem;
+}
+
 #search_btn2 {
-  position: absolute;
-  left: 18.125rem;
-  bottom: -0.063rem;
-  width: 8.75rem;
+  width: 8.375rem;
   height: 3.188rem;
   background-color: #0065fc;
   border-radius: 0 0.938rem 0.938rem 0;
